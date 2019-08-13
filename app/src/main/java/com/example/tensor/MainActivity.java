@@ -12,11 +12,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //最初の画面を表示するメソッド呼び出し。
+        //初期画面を表示するメソッド呼び出し。
         SetFirstScreen();
 
     }
-
+    //初期画面
     private void SetFirstScreen() {
 
         setContentView(R.layout.activity_main);
@@ -36,11 +36,12 @@ public class MainActivity extends AppCompatActivity {
         searchbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //結果表示画面へ
+                //条件決定の画面へ
                 SetResultScreen();
             }
         });
     }
+    //条件選択画面
     private void SetTermScreen() {
         setContentView(R.layout.terms);
         //初期画面へ戻るボタン
@@ -48,11 +49,12 @@ public class MainActivity extends AppCompatActivity {
         backtomainbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //最初の画面へ
+                //条件決定の画面へ
                 SetFirstScreen();
             }
         });
     }
+    //結果表示画面
     private void SetResultScreen() {
         setContentView(R.layout.results);
         //初期画面へ戻るボタン
@@ -60,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         backtomainbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //最初の画面へ
+                //条件決定の画面へ
                 SetFirstScreen();
             }
         });
