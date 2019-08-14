@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         searchbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //入力されたdataを渡す処理が必要？
                 //結果表示画面へ
                 SetResultScreen();
             }
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void SetResultScreen() {
+        //入植されたデータを元に表示する処理が必要？
         setContentView(R.layout.results);
         //初期画面へ戻るボタン
         Button backtomainbutton = findViewById(R.id.backtomain);

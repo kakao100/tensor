@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toTopOf="@+id/search"
         app:layout_constraintStart_toEndOf="@+id/minitern"
         app:layout_constraintTop_toBottomOf="@+id/term"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.089" />
 
     <CheckBox
         android:id="@+id/beforefire"
@@ -73,9 +73,10 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="0"
         android:inputType="number"
+        android:textAlignment="textEnd"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/skilltern" />
 
@@ -132,14 +133,16 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:hint="100"
         android:inputType="number"
+        android:textAlignment="textEnd"
         app:layout_constraintBottom_toTopOf="@+id/search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/term"
-        app:layout_constraintVertical_bias="0.089" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <CheckBox
         android:id="@+id/afterfire"
