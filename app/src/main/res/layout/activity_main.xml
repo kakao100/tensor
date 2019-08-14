@@ -12,15 +12,18 @@
         android:layout_height="50dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="~"
         android:textAlignment="center"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/search"
+        app:layout_constraintEnd_toStartOf="@+id/maxtern"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/minitern"
         app:layout_constraintTop_toBottomOf="@+id/term"
-        app:layout_constraintVertical_bias="0.089" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <CheckBox
         android:id="@+id/beforefire"
@@ -96,7 +99,7 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:text="attribute"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -142,7 +145,7 @@
         app:layout_constraintBottom_toTopOf="@+id/search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/term"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <CheckBox
         android:id="@+id/afterfire"
