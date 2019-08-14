@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/kou/AndroidStudioProjects/tensor2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/43dd5854c2d6d2301f2bc364045843a7/res/values-land/values-land.xml",
+                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

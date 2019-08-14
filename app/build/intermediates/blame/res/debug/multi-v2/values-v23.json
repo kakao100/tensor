@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/kou/AndroidStudioProjects/tensor2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/43dd5854c2d6d2301f2bc364045843a7/res/values-v23/values-v23.xml",
+                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/d1befe795d983179f01edb019ea47c43/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                },
+                {
+                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
