@@ -8,8 +8,15 @@ import android.util.Log;
 public class DBOpenHelper extends SQLiteOpenHelper {
     // データーベースのバージョン
     public static final int DATABASE_VERSION = 1;
-    // データーベース名
+    // データーベース名,変数たち
     public static final String DATABASE_NAME = "MonsterDB.db";
+    private static final String TABLE_NAME = "monsterdb";
+    private static final String _INDEX = "_index";
+    private static final String SKILL_TERN = "skilltern";
+    private static final String BEFORE_ATTRIBUTE = "battribute";
+    private static final String AFTER_ATTRIBUTE = "aatribute";
+    private static final String BLESS = "bless";
+
 
     DBOpenHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
