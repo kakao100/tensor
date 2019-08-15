@@ -2,7 +2,7 @@ package com.example.tensor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.database.sqlite.SQLiteOpenHelper;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,11 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        private DBOpenHelper helper;
-        private SQLiteOpenHelper db;
+        /*private DBOpenHelper helper;
+        private SQLiteDatabase db;
         helper = new DBOpenHelper(getApplicationContext());
         db = helper.getWritableDatabase();
         monsterdatainput();
+        */
         //最初の画面を表示するメソッド呼び出し。
         SetFirstScreen();
 
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void monsterdatainput() {
         //モンスターのデータを入れる。
-        db.insert();
+        //db.insert();
     }
 
     private void SetFirstScreen() {
