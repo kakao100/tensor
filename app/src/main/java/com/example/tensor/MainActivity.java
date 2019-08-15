@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void SetResultScreen() {
-        //入植されたデータを元に表示する処理が必要？
+        //入力されたデータを元に表示する処理が必要？
         setContentView(R.layout.results);
         //初期画面へ戻るボタン
         Button backtomainbutton = findViewById(R.id.backtomain);
