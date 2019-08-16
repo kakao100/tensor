@@ -1,11 +1,14 @@
 package com.example.tensor;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.ArrayList;
+
 public class DBOpenHelper extends SQLiteOpenHelper {
-    // データーベースのバージョン
+    /*// データーベースのバージョン
     public static final int DATABASE_VERSION = 1;
     // データーベース名,変数たち
     public static final String DATABASE_NAME = "MonsterDB.db";
@@ -14,8 +17,10 @@ public class DBOpenHelper extends SQLiteOpenHelper {
     private static final String SKILL_TERN = "skilltern";
     private static final String BEFORE_ATTRIBUTE = "battribute";
     private static final String AFTER_ATTRIBUTE = "aatribute";
-    private static final String BLESS = "bless";
-
+    private static final String BLESS = "bless";*/
+    private static final int MONSTER_DATA_NUM=10000;
+    private static final int ELEMENT_NUM=10000;
+    private static final String[][] monsterdata=new String[MONSTER_DATA_NUM][ELEMENT_NUM];
 
     DBOpenHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -24,9 +29,25 @@ public class DBOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // テーブル作成
-        /*db.execSQL(
-                SQL_CREATE_ENTRIES
-        );*/
+        ContentValues value = new ContentValues();
+        db.beginTransaction();
+        try {
+            db.execSQL("create table capitals (prefecture text primary key, capital text not null);");
+            for(int i=0;i<MONSTER_DATA_NUM;i++) {
+            value.put("number", monsterdata[i][0]);
+            value.put("hname", monsterdata[i][1]);
+            value.put("kname", monsterdata[i][2]);
+            value.put("skilltern", monsterdata[i][3]);
+            value.put("hp", monsterdata[i][4]);
+            value.put("atk", monsterdata[i][5]);
+            db.insert("MonsterDB",null,value);
+            }
+            db.setTransactionSuccessful();
+        } finally {
+            db.endTransaction();
+        }
+    }
+
     }
 
     @Override
@@ -37,10 +58,5 @@ public class DBOpenHelper extends SQLiteOpenHelper {
                 SQL_DELETE_ENTRIES
         );*/
         onCreate(db);
-    }
-
-    public void onDowngrade(SQLiteDatabase db,
-                            int oldVersion, int newVersion) {
-        onUpgrade(db, oldVersion, newVersion);
     }
 }
