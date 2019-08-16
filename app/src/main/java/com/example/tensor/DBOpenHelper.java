@@ -11,7 +11,7 @@ public class DBOpenHelper extends SQLiteOpenHelper {
 
     private static final int MONSTER_DATA_NUM = 3;
     private static final int ELEMENT_NUM = 2;
-    private static final String[][] monsterdata = new String[MONSTER_DATA_NUM][ELEMENT_NUM];
+    private static final String[][] monster_data = new String[MONSTER_DATA_NUM][ELEMENT_NUM];
 
     DBOpenHelper(Context context) {
         super(context, null, null, DATABASE_VERSION);
@@ -20,25 +20,23 @@ public class DBOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // テーブル作成
-        monsterdata[0][0] = "eiru";
-        monsterdata[0][1] = "10";
-        monsterdata[1][0] = "meru";
-        monsterdata[1][1] = "5";
-        monsterdata[2][0] = "kanan";
-        monsterdata[2][1] = "7";
+        monster_data[0][0] = "eiru";
+        monster_data[0][1] = "10";
+        monster_data[1][0] = "meru";
+        monster_data[1][1] = "5";
+        monster_data[2][0] = "kanan";
+        monster_data[2][1] = "7";
         ContentValues value = new ContentValues();
         db.beginTransaction();
         try {
-            db.execSQL("create table MonsterDB (_id integer primary key, name text, skilltern integer);");
+            db.execSQL("create table MonsterDB (_id integer primary key, name text, skill_tern integer);");
             for (int i = 0; i < MONSTER_DATA_NUM; i++) {
-                //value.put("number", monsterdata[i][0]);
-                value.put("_id", String.valueOf(i));
-                value.put("name", monsterdata[i][0]);
-                //value.put("kname", monsterdata[i][2]);
-                value.put("skilltern", monsterdata[i][1]);
-                //value.put("hp", monsterdata[i][4]);
-                //value.put("atk", monsterdata[i][5]);
-                //value.put("heal", monsterdata[i][6]);
+                value.put("_id", String.valueOf(i+1));
+                value.put("name", monster_data[i][0]);
+                value.put("skill_tern", monster_data[i][1]);
+                //value.put("hp", monster_data[i][4]);
+                //value.put("atk", monster_data[i][5]);
+                //value.put("heal", monster_data[i][6]);
                 db.insert("MonsterDB", null, value);
             }
             db.setTransactionSuccessful();

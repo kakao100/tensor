@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +12,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private DBOpenHelper helper;
-    private SQLiteOpenHelper db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,15 +69,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.results);
         helper = new DBOpenHelper(this);
         final SQLiteDatabase db = helper.getReadableDatabase();
-        final String[] columns=new String[]{"_id","name","skilltern"};
+        final String[] columns=new String[]{"_id","name","skill_tern"};
         Cursor c = db.query("MonsterDB",columns, null, null, null, null, null);
         c.moveToFirst();
+
         CharSequence[] list = new CharSequence[c.getCount()];
         for (int i = 0; i < list.length; i++) {
             list[i] = c.getString(1);
             c.moveToNext();
         }
         c.close();
+
         TextView textView0 = findViewById(R.id.text0);
         TextView textView1 = findViewById(R.id.text1);
         TextView textView2 = findViewById(R.id.text2);
