@@ -31,6 +31,7 @@ public class DBOpenHelper extends SQLiteOpenHelper {
         try {
             db.execSQL("create table MonsterDB (_id integer primary key, name text, skill_tern integer);");
             for (int i = 0; i < MONSTER_DATA_NUM; i++) {
+                //idを1から始めるために+1する。
                 value.put("_id", String.valueOf(i+1));
                 value.put("name", monster_data[i][0]);
                 value.put("skill_tern", monster_data[i][1]);
