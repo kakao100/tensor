@@ -24,8 +24,8 @@
 
         <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="393dp"
-            android:layout_height="689dp"
+            android:layout_width="413dp"
+            android:layout_height="598dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             app:layout_constraintBottom_toTopOf="@+id/backtomain"
@@ -47,7 +47,7 @@
                     android:id="@+id/result_mons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textSize="30sp" />
+                    android:textSize="14sp" />
             </LinearLayout>
         </ScrollView>
 

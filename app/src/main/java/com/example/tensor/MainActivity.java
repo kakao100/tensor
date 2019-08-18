@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -30,9 +31,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        data_input("data.txt");
         //最初の画面を表示するメソッド呼び出し。
         SetFirstScreen();
     }
+
 
     private void SetFirstScreen() {
 
@@ -59,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         TextView result_mons = findViewById(R.id.result_mons);
         result_mons.setText("");
         for(int i=0;i<MONSTER_DATA_NUM;i++){
-            result_mons.append("名前"+monster_data[i][0]+"  スキルターン"+monster_data[i][1]+"\n");
+            result_mons.append("\n名前:"+monster_data[i][0]+"  スキルターン:"+monster_data[i][1]);
         }
 
         //初期画面へ戻るボタン
@@ -71,6 +74,28 @@ public class MainActivity extends AppCompatActivity {
                 SetFirstScreen();
             }
         });
+    }
+    public void data_input(String file) {
+        String str = "ティラ 3\n" +
+                "ティラン 3\n" +
+                "ティラノス 4\n" +
+                "爆炎龍ティラノス 4\n" +
+                "プレシィ 3\n" +
+                "プレシィール 3\n" +
+                "プレシオス 4\n" +
+                "氷塊龍プレシオス 4\n" +
+                "ブラッキィ 3\n" +
+                "ブラッキオ 3\n" +
+                "ブラキオス 4\n" +
+                "大花龍ブラキオス 4";
+        // try-with-resources
+        try (FileOutputStream  fileOutputstream = openFileOutput(file, Context.MODE_PRIVATE);){
+
+            fileOutputstream.write(str.getBytes());
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     public void data_reader() {
         try {
