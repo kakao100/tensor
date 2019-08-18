@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kou/AndroidStudioProjects/tensor2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/kokikato/AndroidStudioProjects/tensor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
-                    }
-                },
-                {
-                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/kokikato/.gradle/caches/transforms-2/files-2.1/c9756a832a747e6e55bdbff01f739195/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "752,874",
                         "endColumns": "121,133",
                         "endOffsets": "869,1003"
+                    }
+                },
+                {
+                    "source": "/Users/kokikato/.gradle/caches/transforms-2/files-2.1/29b44758bc145d4905fe8140fdb4f10c/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
                     }
                 }
             ]

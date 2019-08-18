@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kou/AndroidStudioProjects/tensor2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "outputFile": "/Users/kokikato/AndroidStudioProjects/tensor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/values-v25/values-v25.xml",
+                    "source": "/Users/kokikato/.gradle/caches/transforms-2/files-2.1/29b44758bc145d4905fe8140fdb4f10c/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
