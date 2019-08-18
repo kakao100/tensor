@@ -10,20 +10,15 @@
         android:id="@+id/connecter"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:text="~"
         android:textAlignment="center"
         android:textSize="30dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/search"
         app:layout_constraintEnd_toStartOf="@+id/maxtern"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/minitern"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintTop_toBottomOf="@+id/skilltern" />
 
     <CheckBox
         android:id="@+id/beforefire"
@@ -85,27 +80,30 @@
 
     <TextView
         android:id="@+id/skilltern"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="396dp"
+        android:layout_height="51dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:text="skilltern"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
         android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/beforeattribute"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="393dp"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:text="attribute"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
         android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/minitern" />
+        app:layout_constraintTop_toBottomOf="@+id/connecter" />
 
     <Button
         android:id="@+id/search"
@@ -123,17 +121,13 @@
         android:id="@+id/maxtern"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="100"
         android:inputType="number"
         android:textAlignment="textEnd"
-        app:layout_constraintBottom_toTopOf="@+id/search"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintTop_toBottomOf="@+id/skilltern" />
 
     <CheckBox
         android:id="@+id/afterfire"

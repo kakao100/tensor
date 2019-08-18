@@ -8,6 +8,7 @@ import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -43,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //入力されたdataを渡す処理が必要？
-                TextView minitern = findViewById(R.id.minitern);
-                TextView maxtern = findViewById(R.id.maxtern);
+                EditText minitern = findViewById(R.id.minitern);
+                EditText maxtern = findViewById(R.id.maxtern);
                 //結果表示画面へ
                 SetResultScreen(minitern,maxtern);
             }
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         TextView result_mons = findViewById(R.id.result_mons);
         result_mons.setText("");
         for(int i=0;i<MONSTER_DATA_NUM;i++){
-            result_mons.append(monster_data[i][0]+"  "+monster_data[i][1]+"\n");
+            result_mons.append("名前"+monster_data[i][0]+"  スキルターン"+monster_data[i][1]+"\n");
         }
 
         //初期画面へ戻るボタン
