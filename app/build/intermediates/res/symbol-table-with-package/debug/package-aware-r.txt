@@ -1160,7 +1160,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id result_mons
+id result_monsers
 id right
 id right_icon
 id right_side

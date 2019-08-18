@@ -1,4 +1,4 @@
-#Sun Aug 18 22:25:21 JST 2019
+#Sun Aug 18 22:32:47 JST 2019
 base.0=/Users/kou/AndroidStudioProjects/tensor2/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex

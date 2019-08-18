@@ -1159,7 +1159,7 @@ int id pin 0x7f080086
 int id progress_circular 0x7f080087
 int id progress_horizontal 0x7f080088
 int id radio 0x7f080089
-int id result_mons 0x7f08008a
+int id result_monsers 0x7f08008a
 int id right 0x7f08008b
 int id right_icon 0x7f08008c
 int id right_side 0x7f08008d
