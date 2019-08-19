@@ -74,18 +74,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void data_input(String file) {
-        String str = "ティラ 3\n" +
-                "ティラン 3\n" +
-                "ティラノス 4\n" +
-                "爆炎龍ティラノス 4\n" +
-                "プレシィ 3\n" +
-                "プレシィール 3\n" +
-                "プレシオス 4\n" +
-                "氷塊龍プレシオス 4\n" +
-                "ブラッキィ 3\n" +
-                "ブラッキオ 3\n" +
-                "ブラキオス 4\n" +
-                "大花龍ブラキオス 4";
+        String str = "ティラ,3\n" +
+                "ティラン,3\n" +
+                "ティラノス,4\n" +
+                "爆炎龍ティラノス,4\n" +
+                "プレシィ,3\n" +
+                "プレシィール,3\n" +
+                "プレシオス,4\n" +
+                "氷塊龍プレシオス,4\n" +
+                "ブラッキィ,3\n" +
+                "ブラッキオ,3\n" +
+                "ブラキオス,4\n" +
+                "大花龍ブラキオス,4";
         // try-with-resources
         try (FileOutputStream  fileOutputstream = openFileOutput(file, Context.MODE_PRIVATE);){
 
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             while ((line = bufferReader.readLine()) != null) {
 
                 //スペース区切りで１つづつ配列に入れる
-                String[] RowData = line.split(" ");
+                String[] RowData = line.split(",");
 
                 //txtの左([0]番目)から順番にセット
                 monster_data[i][0] = RowData[0];
