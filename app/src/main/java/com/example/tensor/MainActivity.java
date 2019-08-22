@@ -3,33 +3,26 @@ package com.example.tensor;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import android.content.Context;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
+
 
 public class MainActivity extends AppCompatActivity {
-
-
-    private static final int MONSTER_DATA_NUM = 12;
-    private static final int ELEMENT_NUM = 2;
-    String[][] monster_data = new String[MONSTER_DATA_NUM][ELEMENT_NUM];
-    private Context context;
+    //グローバル宣言　データの数に関しては後からcsvから読み込むのでここでは宣言しない
+    public static int data_num_grobal;
+    public static Mons_data[] mons_data_grobal =new Mons_data[2];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        data_input("data.txt");
         //最初の画面を表示するメソッド呼び出し。
         SetFirstScreen();
     }
@@ -45,23 +38,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //入力されたdataを渡す処理が必要？
-                EditText minitern = findViewById(R.id.minitern);
-                EditText maxtern = findViewById(R.id.maxtern);
+                //↑　k(クラスを作り入力にしたい)
                 //結果表示画面へ
-                SetResultScreen(minitern,maxtern);
+                SetResultScreen();
             }
         });
     }
-    private void SetResultScreen(TextView minitern, TextView maxtern) {
+    private void SetResultScreen() {
         //入力されたデータを元に表示する処理が必要？
         setContentView(R.layout.results);
-        //データを読み込む(まだできてません)
+        //データを読み込む(ka完成)
         data_reader();
-        TextView result_monsters = findViewById(R.id.result_monsers);
-        result_monsters.setText("");
-        for(int i=0;i<MONSTER_DATA_NUM;i++){
-            result_monsters.append("名前:"+monster_data[i][0]+"  スキルターン:"+monster_data[i][1]+"\n");
-        }
 
         //初期画面へ戻るボタン
         Button backtomainbutton = findViewById(R.id.backtomain);
@@ -73,49 +60,42 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void data_input(String file) {
-        String str = "ティラ,3\n" +
-                "ティラン,3\n" +
-                "ティラノス,4\n" +
-                "爆炎龍ティラノス,4\n" +
-                "プレシィ,3\n" +
-                "プレシィール,3\n" +
-                "プレシオス,4\n" +
-                "氷塊龍プレシオス,4\n" +
-                "ブラッキィ,3\n" +
-                "ブラッキオ,3\n" +
-                "ブラキオス,4\n" +
-                "大花龍ブラキオス,4";
-        // try-with-resources
-        try (FileOutputStream  fileOutputstream = openFileOutput(file, Context.MODE_PRIVATE);){
-
-            fileOutputstream.write(str.getBytes());
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
     public void data_reader() {
+        InputStream is = null;
+        BufferedReader br = null;
+        String text = "";
         try {
-            // txtファイルの読み込み
-            FileInputStream fileInputStream = openFileInput("data.txt");
-            BufferedReader bufferReader= new BufferedReader(new InputStreamReader(fileInputStream, StandardCharsets.UTF_8));
-            String line;
-            int i = 0;
-            while ((line = bufferReader.readLine()) != null) {
+            try {
+                // assetsフォルダ内の data_mons.csv をオープンする
+                is = this.getAssets().open("data_mons_test.csv");
+                br = new BufferedReader(new InputStreamReader(is));
+                //csvファイルの最初の一行(データの数)を読み取る
+                //data_num_grobal=Integer.parseInt(br.readLine());
 
-                //スペース区切りで１つづつ配列に入れる
-                String[] RowData = line.split(",");
-
-                //txtの左([0]番目)から順番にセット
-                monster_data[i][0] = RowData[0];
-                monster_data[i][1] = RowData[1];
-                i++;
+                //データの数だけテータクラスの配列を作る
+                // １行ずつ読み込み
+                String line;
+                //データクラスの配列のインデックス
+                int i = 0;
+                while ((line = br.readLine()) != null) {
+                    String[] data = line.split(",");
+                    mons_data_grobal[i]=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
+                    i++;
+                }
+            } finally {
+                if (is != null) is.close();
+                if (br != null) br.close();
             }
-            bufferReader.close();
-        } catch (IOException e) {
+        } catch (Exception e){
+            // エラー発生時の処理
             e.printStackTrace();
         }
+
+        // 読み込んだ文字列を EditText に設定し、画面に表示する
+        TextView textView = findViewById(R.id.textView);
+        String mons_data=mons_data_grobal[1].name;
+        // テキストを設定して表示
+        textView.setText(mons_data);
     }
 
 }
