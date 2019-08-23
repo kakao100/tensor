@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 is = this.getAssets().open("data_mons_test.csv");
                 br = new BufferedReader(new InputStreamReader(is));
                 //csvファイルの最初の一行(データの数)を読み取る
-                //data_num_grobal=Integer.parseInt(br.readLine());
+                data_num_grobal=Integer.parseInt(br.readLine());
 
                 //データの数だけテータクラスの配列を作る
                 // １行ずつ読み込み
