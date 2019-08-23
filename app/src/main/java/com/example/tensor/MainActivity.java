@@ -6,19 +6,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Random;
 
 
 public class MainActivity extends AppCompatActivity {
     //グローバル宣言　データの数に関しては後からcsvから読み込むのでここでは宣言しない
+<<<<<<< HEAD
     public static int data_num_grobal;
     public static Mons_data[] mons_data_grobal;
+=======
+>>>>>>> sub1
 
+    ArrayList<Mons_data> mons_list = new ArrayList<Mons_data>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,11 +85,12 @@ public class MainActivity extends AppCompatActivity {
                 // １行ずつ読み込み
                 String line;
                 //データクラスの配列のインデックス
-                int i = 0;
+
+                Mons_data tem;
                 while ((line = br.readLine()) != null) {
                     String[] data = line.split(",");
-                    mons_data_grobal[i]=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
-                    i++;
+                    tem=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
+                    mons_list.add(tem);
                 }
             } finally {
                 if (is != null) is.close();
@@ -92,12 +101,23 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        // 読み込んだ文字列を EditText に設定し、画面に表示する
-        TextView textView = findViewById(R.id.textView);
-        //今は　このmons_data_grobalの１には　コマさん
-        String mons_data=mons_data_grobal[1].name;
-        // テキストを設定して表示
-        textView.setText(mons_data);
+        //ここから　listの中身をランダムに取り出す
+        String[] data = new String[20];
+        for(int i = 0;i<data.length;i++){
+            Random random = new Random();
+            int r = random.nextInt(2);
+            Mons_data t = mons_list.get(r);
+            data[i]= t.getname();
+        }
+
+        //list Vie　の設定　これはデフォルトなので　ここを変更して　Adapter を別ファイルに作り　レイアウトを別ファイルに作り　表記を整える
+        ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data);
+
+        // ListViewにArrayAdapterを設定する
+        ListView listView = (ListView)findViewById(R.id.listView);
+        listView.setAdapter(adapter);
+
+
     }
 
 }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Fri Aug 23 22:25:09 JST 2019
+=======
+#Fri Aug 23 23:44:17 JST 2019
+>>>>>>> sub1
 base.0=/Users/kokikato/AndroidStudioProjects/tensor/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex

@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c9756a832a747e6e55bdbff01f739195/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/29b44758bc145d4905fe8140fdb4f10c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/57e31e53ab615ce901b3d5d5cfaeb1a5/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/99a27aac467da75aed3e25ae8281a450/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/671acdf8c659ff8c213679a27d08d8f4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/f560fdde104e8d3694fd940b86cb0493/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/d319bac4776b0f6211772f613cfec3fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/f834419ba0b21eed4ea88ef22334a2b7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2661e9aeb3aad0b3a4eb7976ef37364f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/eda68e82db33f5d5ad2d0e968083ec31/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/fc7d11f0f2da89e8fa4b810ac5eada88/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c39ae86c2d80f3dc482de945ff30ab48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/913ed7fdfbcfb6db29f69966bea1f415/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/9ac8837ef77ebd9dfa82f8cd5ad52ccd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c24977047f4e5c2b5348d6c1e060a17c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2eeb0afa79ba83db09906888dc4dd6ae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/6c88b92ba16d0d79722444f40ae066f6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/23f42288b36819742ae9cb3eca74e062/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/8db2f31f395e6543b4ca577dc096eb51/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/bf891acd8468b57de492fa081882b9bd/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/d10f604f30427020c6e1e4dbd0dcabb2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/3da55e2fc1eee025753c738faa5ccf22/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/a2050b0dca59b3b0dc136db9991f6529/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2ae68b3f26a794eb0a5be6e89bb29c2a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/4679e787c3427e5a297edfb39d7d7b62/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/cc729f1a2b5e5f23ee4b29246fc79e41/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/7575f1dd2f42c99c664c157fbeeb902e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/6bb45f832176af64d79127a0105c3658/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/49500f25b53e780b928eeff6cd79d694/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/54a1659d7f61606596fd884629637625/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/17cc75966fde6c32a6f5153bbabbbfbf/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:4:5-17:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c9756a832a747e6e55bdbff01f739195/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c9756a832a747e6e55bdbff01f739195/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/57e31e53ab615ce901b3d5d5cfaeb1a5/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/57e31e53ab615ce901b3d5d5cfaeb1a5/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/8db2f31f395e6543b4ca577dc096eb51/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/8db2f31f395e6543b4ca577dc096eb51/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/bf891acd8468b57de492fa081882b9bd/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/bf891acd8468b57de492fa081882b9bd/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/8db2f31f395e6543b4ca577dc096eb51/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.tensor.MainActivity
+ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:11:9-16:20
+	android:name
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c9756a832a747e6e55bdbff01f739195/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c9756a832a747e6e55bdbff01f739195/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/29b44758bc145d4905fe8140fdb4f10c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/29b44758bc145d4905fe8140fdb4f10c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/57e31e53ab615ce901b3d5d5cfaeb1a5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/57e31e53ab615ce901b3d5d5cfaeb1a5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/99a27aac467da75aed3e25ae8281a450/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/99a27aac467da75aed3e25ae8281a450/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/671acdf8c659ff8c213679a27d08d8f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/671acdf8c659ff8c213679a27d08d8f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/f560fdde104e8d3694fd940b86cb0493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/f560fdde104e8d3694fd940b86cb0493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/d319bac4776b0f6211772f613cfec3fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/d319bac4776b0f6211772f613cfec3fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/f834419ba0b21eed4ea88ef22334a2b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/f834419ba0b21eed4ea88ef22334a2b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2661e9aeb3aad0b3a4eb7976ef37364f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2661e9aeb3aad0b3a4eb7976ef37364f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/eda68e82db33f5d5ad2d0e968083ec31/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/eda68e82db33f5d5ad2d0e968083ec31/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/fc7d11f0f2da89e8fa4b810ac5eada88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/fc7d11f0f2da89e8fa4b810ac5eada88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c39ae86c2d80f3dc482de945ff30ab48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c39ae86c2d80f3dc482de945ff30ab48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/913ed7fdfbcfb6db29f69966bea1f415/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/913ed7fdfbcfb6db29f69966bea1f415/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/9ac8837ef77ebd9dfa82f8cd5ad52ccd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/9ac8837ef77ebd9dfa82f8cd5ad52ccd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c24977047f4e5c2b5348d6c1e060a17c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/c24977047f4e5c2b5348d6c1e060a17c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2eeb0afa79ba83db09906888dc4dd6ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2eeb0afa79ba83db09906888dc4dd6ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/6c88b92ba16d0d79722444f40ae066f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/6c88b92ba16d0d79722444f40ae066f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/23f42288b36819742ae9cb3eca74e062/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/23f42288b36819742ae9cb3eca74e062/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/8db2f31f395e6543b4ca577dc096eb51/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/8db2f31f395e6543b4ca577dc096eb51/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/bf891acd8468b57de492fa081882b9bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/bf891acd8468b57de492fa081882b9bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/d10f604f30427020c6e1e4dbd0dcabb2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/d10f604f30427020c6e1e4dbd0dcabb2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/3da55e2fc1eee025753c738faa5ccf22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/3da55e2fc1eee025753c738faa5ccf22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/a2050b0dca59b3b0dc136db9991f6529/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/a2050b0dca59b3b0dc136db9991f6529/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2ae68b3f26a794eb0a5be6e89bb29c2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/2ae68b3f26a794eb0a5be6e89bb29c2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/4679e787c3427e5a297edfb39d7d7b62/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/4679e787c3427e5a297edfb39d7d7b62/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/cc729f1a2b5e5f23ee4b29246fc79e41/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/cc729f1a2b5e5f23ee4b29246fc79e41/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/7575f1dd2f42c99c664c157fbeeb902e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/7575f1dd2f42c99c664c157fbeeb902e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/6bb45f832176af64d79127a0105c3658/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/6bb45f832176af64d79127a0105c3658/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/49500f25b53e780b928eeff6cd79d694/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/49500f25b53e780b928eeff6cd79d694/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/54a1659d7f61606596fd884629637625/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/54a1659d7f61606596fd884629637625/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/17cc75966fde6c32a6f5153bbabbbfbf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kokikato/.gradle/caches/transforms-2/files-2.1/17cc75966fde6c32a6f5153bbabbbfbf/AndroidManifest.xml:20:5-44
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kokikato/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml

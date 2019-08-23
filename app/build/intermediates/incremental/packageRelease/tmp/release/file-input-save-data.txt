@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Fri Aug 23 23:54:25 JST 2019
+1.base=/Users/kokikato/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/release/out
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=/Users/kokikato/AndroidStudioProjects/tensor/app/build/intermediates/dex/release/mergeDexRelease/out
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=data_mons.csv
+0.set=ASSET
+0.base=/Users/kokikato/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/release/out
+2.baseType=DIRECTORY
+1.path=data_mons_test.csv
