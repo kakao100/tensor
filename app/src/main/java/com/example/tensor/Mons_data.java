@@ -16,6 +16,9 @@ public class Mons_data {
         this.hp=Integer.parseInt(hp);
         this.cur=Integer.parseInt(cur);
     }
+    public String getname(){
+        return name;
+    }
 
 
 
