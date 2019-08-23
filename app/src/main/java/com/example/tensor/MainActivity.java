@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
+
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -20,11 +20,6 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     //グローバル宣言　データの数に関しては後からcsvから読み込むのでここでは宣言しない
-<<<<<<< HEAD
-    public static int data_num_grobal;
-    public static Mons_data[] mons_data_grobal;
-=======
->>>>>>> sub1
 
     ArrayList<Mons_data> mons_list = new ArrayList<Mons_data>();
     @Override
@@ -77,14 +72,10 @@ public class MainActivity extends AppCompatActivity {
                 // assetsフォルダ内の data_mons.csv をオープンする
                 is = this.getAssets().open("data_mons_test.csv");
                 br = new BufferedReader(new InputStreamReader(is));
-                //csvファイルの最初の一行(データの数)を読み取る
-                data_num_grobal=Integer.parseInt(br.readLine());
 
-                //データの数だけテータクラスの配列を作る
-                mons_data_grobal =new Mons_data[data_num_grobal];
                 // １行ずつ読み込み
                 String line;
-                //データクラスの配列のインデックス
+
 
                 Mons_data tem;
                 while ((line = br.readLine()) != null) {
