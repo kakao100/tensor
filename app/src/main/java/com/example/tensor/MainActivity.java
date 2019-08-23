@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 読み込んだ文字列を EditText に設定し、画面に表示する
         TextView textView = findViewById(R.id.textView);
+        //今は　このmons_data_grobalの１には　コマさん
         String mons_data=mons_data_grobal[1].name;
         // テキストを設定して表示
         textView.setText(mons_data);
