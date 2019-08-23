@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
 public class MainActivity extends AppCompatActivity {
     //グローバル宣言　データの数に関しては後からcsvから読み込むのでここでは宣言しない
     public static int data_num_grobal;
-    public static Mons_data[] mons_data_grobal =new Mons_data[2];
+    public static Mons_data[] mons_data_grobal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 data_num_grobal=Integer.parseInt(br.readLine());
 
                 //データの数だけテータクラスの配列を作る
+                mons_data_grobal =new Mons_data[data_num_grobal];
                 // １行ずつ読み込み
                 String line;
                 //データクラスの配列のインデックス
