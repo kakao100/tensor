@@ -56,9 +56,10 @@ public class MainActivity extends AppCompatActivity {
         String[] data = data_selecter();
         //データを表示する。
         //list View　の設定
-        MyAdapter adapter = new MyAdapter(this);
+        MyAdapter adapter = new MyAdapter(MainActivity.this);
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
+        adapter.setList(mons_list);
         listView.setAdapter(adapter);
         //初期画面へ戻るボタン
         Button back_to_main_button = findViewById(R.id.back_to_main);
