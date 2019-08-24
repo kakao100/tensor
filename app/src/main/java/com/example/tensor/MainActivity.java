@@ -55,10 +55,8 @@ public class MainActivity extends AppCompatActivity {
         //list View　の設定
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
-        ArrayList<Mons_data> selected_data = new ArrayList<>();
-        //どこかでデータを挿入する。
-//        selected_data.add(mons_list.get(0));
-//        adapter.notifyDataSetChanged();
+        //ここでデータを挿入する。
+        ArrayList<Mons_data> selected_data = data_selecter();
         MyAdapter adapter = new MyAdapter(MainActivity.this);
 
         adapter.setList(selected_data);
@@ -91,6 +89,13 @@ public class MainActivity extends AppCompatActivity {
                 while ((line = br.readLine()) != null) {
                     String[] data = line.split(",");
                     Mons_data tem=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
+//                    Mons_data tem = new Mons_data();
+//                    tem.setid(Integer.parseInt(data[0]));
+//                    tem.setname(data[1]);
+//                    tem.sethp(Integer.parseInt(data[2]));
+//                    tem.setatk(Integer.parseInt(data[3]));
+//                    tem.setcur(Integer.parseInt(data[4]));
+
                     mons_list.add(tem);
                 }
             } finally {
@@ -102,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public ArrayList<Mons_data> data_selecter(ArrayList<Mons_data> mons_list){
+    public ArrayList<Mons_data> data_selecter(){
         return mons_list;
     }
 

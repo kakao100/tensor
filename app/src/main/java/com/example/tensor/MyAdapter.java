@@ -43,11 +43,11 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         view = layoutInflater.inflate(R.layout.list_items,viewGroup,false);
 
-        ((TextView)view.findViewById(R.id.zukanView)).setText(mons_data_list.get(i).getid());
+        ((TextView)view.findViewById(R.id.zukanView)).setText(String.valueOf(mons_data_list.get(i).getid()));
         ((TextView)view.findViewById(R.id.nameView)).setText(mons_data_list.get(i).getname());
-        ((TextView)view.findViewById(R.id.hpView)).setText(mons_data_list.get(i).gethp());
-        ((TextView)view.findViewById(R.id.atkView)).setText(mons_data_list.get(i).getatk());
-        ((TextView)view.findViewById(R.id.cureView)).setText(mons_data_list.get(i).getcur());
+        ((TextView)view.findViewById(R.id.hpView)).setText(String.valueOf(mons_data_list.get(i).gethp()));
+        ((TextView)view.findViewById(R.id.atkView)).setText(String.valueOf(mons_data_list.get(i).getatk()));
+        ((TextView)view.findViewById(R.id.cureView)).setText(String.valueOf(mons_data_list.get(i).getcur()));
 
         return view;
     }
