@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -15,7 +14,6 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Random;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -50,19 +48,14 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void SetResultScreen() {
-        //入力されたデータを元に表示する処理が必要？
         setContentView(R.layout.results);
-        //list View　の設定
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
         //ここでデータを挿入する。
-        ArrayList<Mons_data> selected_data = data_selecter();
+        ArrayList<Mons_data> selected_data = data_selector();
         MyAdapter adapter = new MyAdapter(MainActivity.this);
-
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
-
-
 
         //初期画面へ戻るボタン
         Button back_to_main_button = findViewById(R.id.back_to_main);
@@ -89,13 +82,6 @@ public class MainActivity extends AppCompatActivity {
                 while ((line = br.readLine()) != null) {
                     String[] data = line.split(",");
                     Mons_data tem=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
-//                    Mons_data tem = new Mons_data();
-//                    tem.setid(Integer.parseInt(data[0]));
-//                    tem.setname(data[1]);
-//                    tem.sethp(Integer.parseInt(data[2]));
-//                    tem.setatk(Integer.parseInt(data[3]));
-//                    tem.setcur(Integer.parseInt(data[4]));
-
                     mons_list.add(tem);
                 }
             } finally {
@@ -107,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public ArrayList<Mons_data> data_selecter(){
+    public ArrayList<Mons_data> data_selector(){
         return mons_list;
     }
 
