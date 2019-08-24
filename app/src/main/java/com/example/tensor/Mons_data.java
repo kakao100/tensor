@@ -4,7 +4,7 @@ package com.example.tensor;
 public class Mons_data {
     //図鑑番号
     private int id;
-    public String name;
+    private String name;
     private int atk;
     private int hp;
     private int cur;
@@ -16,10 +16,21 @@ public class Mons_data {
         this.hp=Integer.parseInt(hp);
         this.cur=Integer.parseInt(cur);
     }
+    public int getid(){
+        return id;
+    }
     public String getname(){
         return name;
     }
-
+    public int getatk(){
+        return atk;
+    }
+    public int gethp(){
+        return hp;
+    }
+    public int getcur(){
+        return cur;
+    }
 
 
 

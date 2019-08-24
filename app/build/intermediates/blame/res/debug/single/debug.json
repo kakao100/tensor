@@ -204,6 +204,10 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_list_items.xml.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/layout/list_items.xml"
+    },
+    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },

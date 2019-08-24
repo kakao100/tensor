@@ -55,13 +55,13 @@ public class MainActivity extends AppCompatActivity {
         //データをフィルターにかける。
         String[] data = data_selecter();
         //データを表示する。
-        //list View　の設定　これはデフォルトなので　ここを変更して　Adapter を別ファイルに作り　レイアウトを別ファイルに作り　表記を整える
-        ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data);
+        //list View　の設定
+        MyAdapter adapter = new MyAdapter(this);
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
         listView.setAdapter(adapter);
         //初期画面へ戻るボタン
-        Button back_to_main_button = findViewById(R.id.backtomain);
+        Button back_to_main_button = findViewById(R.id.back_to_main);
         back_to_main_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
