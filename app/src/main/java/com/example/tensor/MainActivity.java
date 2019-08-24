@@ -57,10 +57,15 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.listView);
         ArrayList<Mons_data> selected_data = new ArrayList<>();
         //どこかでデータを挿入する。
+//        selected_data.add(mons_list.get(0));
+//        adapter.notifyDataSetChanged();
         MyAdapter adapter = new MyAdapter(MainActivity.this);
 
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
+
+
+
         //初期画面へ戻るボタン
         Button back_to_main_button = findViewById(R.id.back_to_main);
         back_to_main_button.setOnClickListener(new View.OnClickListener() {
@@ -97,16 +102,8 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public ArrayList<Mons_data> data_selecter(){
-        //ここから　listの中身をランダムに取り出す
-        String[] data = new String[20];
-        for(int i = 0;i<data.length;i++){
-            Random random = new Random();
-            int r = random.nextInt(2);
-            Mons_data tem = mons_list.get(r);
-            data[i]= tem.getname();
-        }
-        return null;
+    public ArrayList<Mons_data> data_selecter(ArrayList<Mons_data> mons_list){
+        return mons_list;
     }
 
 
