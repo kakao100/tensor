@@ -19,18 +19,34 @@ public class Mons_data {
     public int getid(){
         return id;
     }
+    public void setid(int id){
+        this.id=id;
+    }
     public String getname(){
         return name;
+    }
+    public void setname(String name){
+        this.name=name;
     }
     public int getatk(){
         return atk;
     }
+    public void setatk(int atk){
+        this.atk=atk;
+    }
     public int gethp(){
         return hp;
+    }
+    public void sethp(int hp){
+        this.hp=hp;
     }
     public int getcur(){
         return cur;
     }
+    public void setcur(int cur){
+        this.cur=cur;
+    }
+
 
 
 

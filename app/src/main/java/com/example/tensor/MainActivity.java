@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity {
     private void SetResultScreen() {
         //入力されたデータを元に表示する処理が必要？
         setContentView(R.layout.results);
-        //データをフィルターにかける。
-        String[] data = data_selecter();
-        //データを表示する。
         //list View　の設定
-        MyAdapter adapter = new MyAdapter(MainActivity.this);
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
-        adapter.setList(mons_list);
+        ArrayList<Mons_data> selected_data = new ArrayList<>();
+        //どこかでデータを挿入する。
+        MyAdapter adapter = new MyAdapter(MainActivity.this);
+
+        adapter.setList(selected_data);
         listView.setAdapter(adapter);
         //初期画面へ戻るボタン
         Button back_to_main_button = findViewById(R.id.back_to_main);
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public String[] data_selecter(){
+    public ArrayList<Mons_data> data_selecter(){
         //ここから　listの中身をランダムに取り出す
         String[] data = new String[20];
         for(int i = 0;i<data.length;i++){
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             Mons_data tem = mons_list.get(r);
             data[i]= tem.getname();
         }
-        return data;
+        return null;
     }
 
 

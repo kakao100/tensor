@@ -7,9 +7,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.tensor.Mons_data;
-import com.example.tensor.R;
-
 import java.util.ArrayList;
 
 public class MyAdapter extends BaseAdapter {
