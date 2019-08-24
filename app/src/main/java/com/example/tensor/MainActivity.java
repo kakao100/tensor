@@ -21,11 +21,13 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
     //グローバル宣言　データの数に関しては後からcsvから読み込むのでここでは宣言しない
 
-    ArrayList<Mons_data> mons_list = new ArrayList<Mons_data>();
+    ArrayList<Mons_data> mons_list = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //全てのデータを代入するのはここの方が良さそう。
+        data_reader();
         //最初の画面を表示するメソッド呼び出し。
         SetFirstScreen();
     }
@@ -50,12 +52,17 @@ public class MainActivity extends AppCompatActivity {
     private void SetResultScreen() {
         //入力されたデータを元に表示する処理が必要？
         setContentView(R.layout.results);
-        //データを読み込む(ka完成)
-        data_reader();
-
+        //データをフィルターにかける。
+        String[] data = data_selecter();
+        //データを表示する。
+        //list View　の設定　これはデフォルトなので　ここを変更して　Adapter を別ファイルに作り　レイアウトを別ファイルに作り　表記を整える
+        ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data);
+        // ListViewにArrayAdapterを設定する
+        ListView listView = (ListView)findViewById(R.id.listView);
+        listView.setAdapter(adapter);
         //初期画面へ戻るボタン
-        Button backtomainbutton = findViewById(R.id.backtomain);
-        backtomainbutton.setOnClickListener(new View.OnClickListener() {
+        Button back_to_main_button = findViewById(R.id.backtomain);
+        back_to_main_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //最初の画面へ
@@ -66,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
     public void data_reader() {
         InputStream is = null;
         BufferedReader br = null;
-        String text = "";
         try {
             try {
                 // assetsフォルダ内の data_mons.csv をオープンする
@@ -76,11 +82,9 @@ public class MainActivity extends AppCompatActivity {
                 // １行ずつ読み込み
                 String line;
 
-
-                Mons_data tem;
                 while ((line = br.readLine()) != null) {
                     String[] data = line.split(",");
-                    tem=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
+                    Mons_data tem=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
                     mons_list.add(tem);
                 }
             } finally {
@@ -91,24 +95,18 @@ public class MainActivity extends AppCompatActivity {
             // エラー発生時の処理
             e.printStackTrace();
         }
-
+    }
+    public String[] data_selecter(){
         //ここから　listの中身をランダムに取り出す
         String[] data = new String[20];
         for(int i = 0;i<data.length;i++){
             Random random = new Random();
             int r = random.nextInt(2);
-            Mons_data t = mons_list.get(r);
-            data[i]= t.getname();
+            Mons_data tem = mons_list.get(r);
+            data[i]= tem.getname();
         }
-
-        //list Vie　の設定　これはデフォルトなので　ここを変更して　Adapter を別ファイルに作り　レイアウトを別ファイルに作り　表記を整える
-        ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data);
-
-        // ListViewにArrayAdapterを設定する
-        ListView listView = (ListView)findViewById(R.id.listView);
-        listView.setAdapter(adapter);
-
-
+        return data;
     }
+
 
 }
