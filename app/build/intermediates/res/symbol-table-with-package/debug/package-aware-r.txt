@@ -1085,7 +1085,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
-id connecter
+id connector
 id container
 id content
 id contentPanel
@@ -1140,7 +1140,7 @@ id listMode
 id listView
 id list_item
 id masked
-id maxtern
+id max_tern
 id message
 id middle
 id mini
@@ -1374,6 +1374,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string connector
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
@@ -1383,6 +1384,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string search
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

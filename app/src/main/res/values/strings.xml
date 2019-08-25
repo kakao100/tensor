@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">tensor</string>
+    <string name="connector">~</string>
+    <string name="search">検索</string>
 </resources>

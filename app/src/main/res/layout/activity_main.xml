@@ -7,16 +7,16 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/connecter"
+        android:id="@+id/connector"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="~"
+        android:text="@string/connector"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/maxtern"
+        app:layout_constraintEnd_toStartOf="@+id/max_tern"
         app:layout_constraintStart_toEndOf="@+id/minitern"
         app:layout_constraintTop_toBottomOf="@+id/skilltern" />
 
@@ -103,7 +103,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/connecter" />
+        app:layout_constraintTop_toBottomOf="@+id/connector" />
 
     <Button
         android:id="@+id/search"
@@ -111,14 +111,14 @@
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="検索"
+        android:text="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/maxtern"
+        android:id="@+id/max_tern"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
@@ -191,7 +191,7 @@
         app:layout_constraintEnd_toStartOf="@+id/afterw"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toEndOf="@+id/beforew"
-        app:layout_constraintTop_toBottomOf="@+id/connecter"
+        app:layout_constraintTop_toBottomOf="@+id/connector"
         app:layout_constraintVertical_bias="0.243" />
 
     <CheckBox
