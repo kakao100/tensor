@@ -25,7 +25,7 @@ public class Mons_data {
     private int longest_tern;
     private String skill_exp;
     private int skill_feature;
-    private int coverted_drop;
+    private int converted_drop;
     private int convert_drop;
     private int leader_skill_id;
     private String leader_skill_name;
@@ -51,28 +51,37 @@ public class Mons_data {
         this.longest_tern = Integer.parseInt(data[5]);
         this.shortest_tern = Integer.parseInt(data[6]);
     }
-    public int getid(){
-        return id;
-    }
-    public String getname(){
-        return name;
-    }
-    public int getattack(){
-        return attack;
-    }
-    public int gethp(){
-        return hp;
-    }
-    public int getcure(){
-        return cure;
-    }
-    public int getshortest_tern(){
-        return shortest_tern;
-    }
-    public int getlongest_tern(){
-        return longest_tern;
-    }
-
+    public int getid(){ return id; }
+    public String getname(){ return name; }
+    public String getattribute(){ return attribute; }
+    public String getsubattribute(){ return subattribute; }
+    public int getrare(){ return rare; }
+    public int getcost(){ return cost; }
+    public boolean inheritance(){ return inheritance; }
+    public String gettype1(){ return type1; }
+    public String gettype2(){ return type2; }
+    public String gettype3(){ return type3; }
+    public int gethp(){ return hp; }
+    public int getattack(){ return attack; }
+    public int getcure(){ return cure; }
+    public int gethp_110(){ return hp_110; }
+    public int getattack_110(){ return attack_110; }
+    public int getcure_110(){ return cure_110; }
+    public int getskill_id(){ return skill_id; }
+    public String getskill_name(){ return skill_name; }
+    public int getshortest_tern(){ return shortest_tern; }
+    public int getlongest_tern(){ return longest_tern; }
+    public String getskill_exp(){ return skill_exp; }
+    public int getskill_feature(){ return skill_feature; }
+    public int getconverted_drop(){ return converted_drop; }
+    public int getconvert_drop(){ return convert_drop; }
+    public int getleader_skill_id(){ return leader_skill_id; }
+    public String getleader_skill_name(){ return leader_skill_name; }
+    public int getleader_skill_hp(){ return leader_skill_hp; }
+    public int getleader_skill_attack(){ return leader_skill_attack; }
+    public int getleader_skill_cure(){ return leader_skill_cure; }
+    public int getleader_skill_Alle(){ return leader_skill_Alle; }
+    public String[] getawa(){ return awa; }
 
 
 
