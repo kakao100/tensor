@@ -1025,7 +1025,6 @@ drawable ps_icon
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
-id AtoB
 id CTRL
 id FUNCTION
 id META
@@ -1051,12 +1050,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id afteranyattribute
-id afterdark
-id afterfire
-id afterlight
-id afterw
-id afterwater
 id alertTitle
 id all
 id always
@@ -1066,13 +1059,6 @@ id atkView
 id auto
 id back_to_main
 id barrier
-id beforeanyattribute
-id beforeattribute
-id beforedark
-id beforefire
-id beforelight
-id beforew
-id beforewater
 id beginning
 id blocking
 id bottom
@@ -1138,6 +1124,7 @@ id largeLabel
 id left
 id line1
 id line3
+id linearLayout
 id listMode
 id listView
 id list_item
@@ -1147,7 +1134,7 @@ id max_tern
 id message
 id middle
 id mini
-id minitern
+id mini_tern
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
@@ -1201,7 +1188,7 @@ id shortest_ternView
 id showCustom
 id showHome
 id showTitle
-id skilltern
+id skill_tern
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1219,6 +1206,7 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id switch1
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -1381,6 +1369,8 @@ string connector
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string hundred
+string inheritance
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
 string path_password_eye
@@ -1389,7 +1379,9 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search
 string search_menu_title
+string shortest_skill_tern
 string status_bar_notification_info_overflow
+string zero
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

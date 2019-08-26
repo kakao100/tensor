@@ -14,6 +14,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -93,7 +94,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public ArrayList<Mons_data> data_selector(){
-        return mons_list;
+        ArrayList<Mons_data> mons_filtered = new ArrayList<>();
+        for(Mons_data monster : mons_list){
+            if(monster.getshortest_tern()>1){
+                mons_filtered.add(monster);
+            }
+        }
+        return mons_filtered;
     }
 
 

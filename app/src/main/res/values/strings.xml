@@ -2,4 +2,8 @@
     <string name="app_name">tensor</string>
     <string name="connector">~</string>
     <string name="search">検索</string>
+    <string name="zero">0</string>
+    <string name="hundred">100</string>
+    <string name="shortest_skill_tern">最小スキルターン数</string>
+    <string name="inheritance">継承</string>
 </resources>
