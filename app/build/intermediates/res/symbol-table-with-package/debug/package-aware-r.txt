@@ -1127,6 +1127,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -1139,6 +1140,7 @@ id line3
 id listMode
 id listView
 id list_item
+id longest_ternView
 id masked
 id max_tern
 id message
@@ -1194,6 +1196,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id shortcut
+id shortest_ternView
 id showCustom
 id showHome
 id showTitle
@@ -1249,7 +1252,6 @@ id visible
 id withText
 id wrap
 id wrap_content
-id zukanView
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

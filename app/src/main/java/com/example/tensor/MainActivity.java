@@ -80,8 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 String line;
 
                 while ((line = br.readLine()) != null) {
-                    String[] data = line.split(",");
-                    Mons_data tem=new Mons_data(data[0],data[1],data[2],data[3],data[4]);
+                    Mons_data tem=new Mons_data(line);
                     mons_list.add(tem);
                 }
             } finally {

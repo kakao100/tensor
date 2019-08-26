@@ -43,11 +43,13 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         view = layoutInflater.inflate(R.layout.list_items,viewGroup,false);
 
-        ((TextView)view.findViewById(R.id.zukanView)).setText("ID "+String.valueOf(mons_data_list.get(i).getid()));
         ((TextView)view.findViewById(R.id.nameView)).setText(mons_data_list.get(i).getname());
-        ((TextView)view.findViewById(R.id.hpView)).setText("HP"+String.valueOf(mons_data_list.get(i).gethp()));
-        ((TextView)view.findViewById(R.id.atkView)).setText("攻撃"+String.valueOf(mons_data_list.get(i).getatk()));
-        ((TextView)view.findViewById(R.id.cureView)).setText("回復"+String.valueOf(mons_data_list.get(i).getcur()));
+        ((TextView)view.findViewById(R.id.hpView)).setText("HP "+String.valueOf(mons_data_list.get(i).gethp()));
+        ((TextView)view.findViewById(R.id.atkView)).setText(" 攻撃 "+String.valueOf(mons_data_list.get(i).getattack()));
+        ((TextView)view.findViewById(R.id.cureView)).setText(" 回復 "+String.valueOf(mons_data_list.get(i).getcure()));
+        ((TextView)view.findViewById(R.id.shortest_ternView)).setText(" スキルターン "+String.valueOf(mons_data_list.get(i).getshortest_tern()));
+        ((TextView)view.findViewById(R.id.longest_ternView)).setText("("+String.valueOf(mons_data_list.get(i).getlongest_tern())+")");
+
 
         return view;
     }
