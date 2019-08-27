@@ -17,6 +17,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Set;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -79,6 +80,16 @@ public class MainActivity extends AppCompatActivity {
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
 
+        //ソート画面へ行くボタン
+        Button sort_button = findViewById(R.id.sort_button);
+        sort_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //ソートの画面へ
+                SetSortScreen();
+            }
+        });
+
         //初期画面へ戻るボタン
         Button back_to_main_button = findViewById(R.id.back_to_main);
         back_to_main_button.setOnClickListener(new View.OnClickListener() {
@@ -86,6 +97,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //最初の画面へ
                 SetFirstScreen();
+            }
+        });
+    }
+
+    private void SetSortScreen() {
+
+        setContentView(R.layout.sort);
+        //検索画面へ戻るボタン
+        Button search_button = findViewById(R.id.back_to_main);
+        //イベント追加
+        search_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //入力されたdataを渡す処理が必要？
+                //↑　k(クラスを作り入力にしたい)
+                //結果表示画面へ
+                SetResultScreen();
             }
         });
     }
