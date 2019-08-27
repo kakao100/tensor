@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Mons_data> mons_list = new ArrayList<>();
     EditText mini;
     EditText max;
-    Switch inh_swich;
+    Switch inh_switch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.search_menu);
         mini = (EditText) findViewById(R.id.mini_tern);
         max = (EditText) findViewById(R.id.max_tern);
-        inh_swich = (Switch) findViewById(R.id.inh_Swich);
+        inh_switch = (Switch) findViewById(R.id.inh_Swich);
         //検索ボタン
         Button search_button = findViewById(R.id.search);
         //イベント追加
