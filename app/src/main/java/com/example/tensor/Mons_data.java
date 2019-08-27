@@ -57,7 +57,7 @@ public class Mons_data {
     public String getsubattribute(){ return subattribute; }
     public int getrare(){ return rare; }
     public int getcost(){ return cost; }
-    public boolean inheritance(){ return inheritance; }
+    public boolean getinheritance(){ return inheritance; }
     public String gettype1(){ return type1; }
     public String gettype2(){ return type2; }
     public String gettype3(){ return type3; }

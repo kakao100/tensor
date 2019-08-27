@@ -5,26 +5,31 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Switch;
 
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 
 public class MainActivity extends AppCompatActivity {
-    //グローバル宣言　データの数に関しては後からcsvから読み込むのでここでは宣言しない
 
     ArrayList<Mons_data> mons_list = new ArrayList<>();
+    EditText mini;
+    EditText max;
+    Switch inh_swich;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.search_menu);
         //全てのデータを代入するのはここの方が良さそう。
         data_reader();
         //最初の画面を表示するメソッド呼び出し。
@@ -34,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void SetFirstScreen() {
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.search_menu);
+        mini = (EditText) findViewById(R.id.mini_tern);
+        max = (EditText) findViewById(R.id.max_tern);
+        inh_swich = (Switch) findViewById(R.id.inh_Swich);
         //検索ボタン
         Button search_button = findViewById(R.id.search);
         //イベント追加
@@ -50,10 +58,23 @@ public class MainActivity extends AppCompatActivity {
     }
     private void SetResultScreen() {
         setContentView(R.layout.results);
+        int mini_tern,max_tern;
+        if(!mini.getText().toString().equals("")) {
+            mini_tern = Integer.parseInt(mini.getText().toString());
+        }
+        else {
+            mini_tern = 0;
+        }
+        if(!max.getText().toString().equals("")) {
+            max_tern = Integer.parseInt(max.getText().toString());
+        }
+        else {
+            max_tern=100;
+        }
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
         //ここでデータを挿入する。
-        ArrayList<Mons_data> selected_data = data_selector();
+        ArrayList<Mons_data> selected_data = data_selector(mini_tern,max_tern);
         MyAdapter adapter = new MyAdapter(MainActivity.this);
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
@@ -93,11 +114,20 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public ArrayList<Mons_data> data_selector(){
+    public ArrayList<Mons_data> data_selector(int mini_tern,int max_tern/*boolean inheritance,,int skill_feature,int leader_skill_id*/){
         ArrayList<Mons_data> mons_filtered = new ArrayList<>();
         for(Mons_data monster : mons_list){
-            if(monster.getshortest_tern()>1){
-                mons_filtered.add(monster);
+            //Log.d("", monster.getname()+monster.getid()+"\n");
+            if(monster.getshortest_tern()>=mini_tern){
+                if(monster.getshortest_tern()<=max_tern) {
+                    //if(monster.getinheritance()==inheritance) {
+                        //if(monster.getskill_feature()==skill_feature) {
+                        //    if(monster.getleader_skill_id()==leader_skill_id) {
+                                mons_filtered.add(monster);
+                        //    }
+                        //}
+                    //}
+                }
             }
         }
         return mons_filtered;
