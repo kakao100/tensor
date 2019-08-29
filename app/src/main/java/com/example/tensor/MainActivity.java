@@ -6,11 +6,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Switch;
 
 
@@ -19,13 +22,17 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import static com.example.tensor.R.id.search_text;
 
-public class MainActivity extends AppCompatActivity implements TextWatcher {
+
+public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     ArrayList<Mons_data> mons_list = new ArrayList<>();
     ArrayList<Mons_data> selected_data = new ArrayList<>();
     EditText mini,max;
     Switch inh_switch;
+    ListView listView;
+    MyAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,9 +51,8 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         mini = (EditText) findViewById(R.id.mini_tern);
         max = (EditText) findViewById(R.id.max_tern);
         inh_switch = (Switch) findViewById(R.id.inh_Swich);
-        //検索ボタン
+        //検索画面へ移行するボタン
         Button search_button = findViewById(R.id.search);
-        //イベント追加
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,8 +63,8 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
     }
     private void SetResultScreen() {
         setContentView(R.layout.results);
-        EditText name_search = findViewById(R.id.name_search);
-        name_search.addTextChangedListener(this);
+        //入力データを受け取る。
+        //まだ二つしか要素がないがこれから。
         int mini_tern,max_tern;
         if(!mini.getText().toString().equals("")) {
             mini_tern = Integer.parseInt(mini.getText().toString());
@@ -73,12 +79,24 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
             max_tern=100;
         }
         // ListViewにArrayAdapterを設定する
-        ListView listView = (ListView)findViewById(R.id.listView);
+        listView = (ListView)findViewById(R.id.listView);
         //ここでデータを挿入する。
-        first_data_selector(mini_tern,max_tern);
-        MyAdapter adapter = new MyAdapter(MainActivity.this);
+        data_selector(mini_tern,max_tern);
+        adapter = new MyAdapter(MainActivity.this);
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
+        listView.setTextFilterEnabled(true);
+
+        //SearchViewの設定諸々
+        SearchView search_text = (SearchView) findViewById(R.id.search_text);
+        // SearchViewの初期表示状態を設定
+        search_text.setIconifiedByDefault(false);
+        // SearchViewにOnQueryChangeListenerを設定
+        search_text.setOnQueryTextListener(this);
+        // SearchViewのSubmitボタンを使用不可にする
+        search_text.setSubmitButtonEnabled(true);
+        // SearchViewに何も入力していない時のテキストを設定
+        search_text.setQueryHint("モンスターが検索できるよ");
 
         //ソート画面へ行くボタン
         Button sort_button = findViewById(R.id.sort_button);
@@ -101,6 +119,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         });
     }
 
+    //ソート画面
     private void SetSortScreen() {
 
         setContentView(R.layout.sort);
@@ -141,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         }
     }
 
-    public void first_data_selector(int mini_tern, int max_tern){
+    public void data_selector(int mini_tern, int max_tern){
         selected_data = new ArrayList<>();
         for(Mons_data monster : mons_list){
             if(monster.getshortest_tern()>=mini_tern){
@@ -152,28 +171,33 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         }
     }
 
-    private void name_searcher(String name_search_data) {
-//ここでどうにかしてアダプターを更新する。
+    @Override
+    public boolean onQueryTextSubmit(String s) {
+        return false;
     }
 
     @Override
-    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-    }
-
-    @Override
-    public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-    }
-
-    @Override
-    public void afterTextChanged(Editable s) {
-        //リアルタイムチェッカー
-        String name_search_data = s.toString();
-        if(!name_search_data.equals("")) {
-            name_searcher(name_search_data);
+    public boolean onQueryTextChange(String query) {
+        if(!query.equals("")){
+            final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
+            for (Mons_data monster: selected_data) {
+                    if (monster.getname().contains(query)) {
+                        filtered_mons_data.add(monster);
+                }
+            }
+            //データをセット
+            adapter.setList(filtered_mons_data);
+            //反映
+            adapter.notifyDataSetChanged();
         }
-    }
+        else{
+            //データをセット
+            adapter.setList(selected_data);
+            //反映
+            adapter.notifyDataSetChanged();
+        }
 
+        return true;
+    }
 
 }

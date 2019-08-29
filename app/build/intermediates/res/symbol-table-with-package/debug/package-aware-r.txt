@@ -1141,7 +1141,6 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id name
 id nameView
-id name_search
 id navigation_header_container
 id never
 id none
@@ -1183,6 +1182,7 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
+id search_text
 id search_voice_btn
 id select_dialog_listview
 id selected
