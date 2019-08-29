@@ -53,4 +53,9 @@ public class MyAdapter extends BaseAdapter {
 
         return view;
     }
+    public void refresh_adapter(ArrayList<Mons_data> list){
+        mons_data_list.clear();
+        mons_data_list = new ArrayList<>(list);
+    }
+
 }

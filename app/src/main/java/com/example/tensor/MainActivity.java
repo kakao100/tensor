@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.os.Bundle;
-import android.util.Log;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,14 +18,13 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Set;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TextWatcher {
 
     ArrayList<Mons_data> mons_list = new ArrayList<>();
-    EditText mini;
-    EditText max;
+    ArrayList<Mons_data> selected_data = new ArrayList<>();
+    EditText mini,max;
     Switch inh_switch;
 
     @Override
@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //入力されたdataを渡す処理が必要？
-                //↑　k(クラスを作り入力にしたい)
                 //結果表示画面へ
                 SetResultScreen();
             }
@@ -59,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private void SetResultScreen() {
         setContentView(R.layout.results);
+        EditText name_search = findViewById(R.id.name_search);
+        name_search.addTextChangedListener(this);
         int mini_tern,max_tern;
         if(!mini.getText().toString().equals("")) {
             mini_tern = Integer.parseInt(mini.getText().toString());
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
         //ここでデータを挿入する。
-        ArrayList<Mons_data> selected_data = data_selector(mini_tern,max_tern);
+        first_data_selector(mini_tern,max_tern);
         MyAdapter adapter = new MyAdapter(MainActivity.this);
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         back_to_main_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //最初の画面へ
+                //初期画面へ
                 SetFirstScreen();
             }
         });
@@ -106,17 +106,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.sort);
         //検索画面へ戻るボタン
         Button search_button = findViewById(R.id.back_to_main);
-        //イベント追加
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //入力されたdataを渡す処理が必要？
-                //↑　k(クラスを作り入力にしたい)
                 //結果表示画面へ
                 SetResultScreen();
             }
         });
     }
+
     public void data_reader() {
         InputStream is = null;
         BufferedReader br = null;
@@ -142,23 +140,39 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public ArrayList<Mons_data> data_selector(int mini_tern,int max_tern/*boolean inheritance,,int skill_feature,int leader_skill_id*/){
-        ArrayList<Mons_data> mons_filtered = new ArrayList<>();
+
+    public void first_data_selector(int mini_tern, int max_tern){
+        selected_data = new ArrayList<>();
         for(Mons_data monster : mons_list){
-            //Log.d("", monster.getname()+monster.getid()+"\n");
             if(monster.getshortest_tern()>=mini_tern){
                 if(monster.getshortest_tern()<=max_tern) {
-                    //if(monster.getinheritance()==inheritance) {
-                        //if(monster.getskill_feature()==skill_feature) {
-                        //    if(monster.getleader_skill_id()==leader_skill_id) {
-                                mons_filtered.add(monster);
-                        //    }
-                        //}
-                    //}
+                    selected_data.add(monster);
                 }
             }
         }
-        return mons_filtered;
+    }
+
+    private void name_searcher(String name_search_data) {
+//ここでどうにかしてアダプターを更新する。
+    }
+
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+    }
+
+    @Override
+    public void afterTextChanged(Editable s) {
+        //リアルタイムチェッカー
+        String name_search_data = s.toString();
+        if(!name_search_data.equals("")) {
+            name_searcher(name_search_data);
+        }
     }
 
 
