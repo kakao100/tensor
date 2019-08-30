@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         });
     }
 
+    //起動時にデータの読み込み(毎回するのは重すぎて本番だとやってられないかも)
     public void data_reader() {
         InputStream is = null;
         BufferedReader br = null;
@@ -191,7 +192,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             adapter.notifyDataSetChanged();
         }
         else{
-            //データをセット
+            //何も変化を加えていないデータをセット
             adapter.setList(selected_data);
             //反映
             adapter.notifyDataSetChanged();
