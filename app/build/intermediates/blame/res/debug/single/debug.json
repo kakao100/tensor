@@ -17160,10 +17160,6 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4153.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_forlistveiw.xml.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/layout/forlistveiw.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5021.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5021.png"
     },

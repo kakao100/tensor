@@ -6585,7 +6585,6 @@ id alertTitle
 id all
 id always
 id async
-id atk
 id atkView
 id auto
 id back_to_main
@@ -6645,7 +6644,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id info
 id inh_Swich
 id invisible
@@ -6667,10 +6665,10 @@ id message
 id middle
 id mini
 id mini_tern
+id monster_icon
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
-id name
 id nameView
 id navigation_header_container
 id never
@@ -6841,7 +6839,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout forlistveiw
 layout list_items
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             mini_tern = Integer.parseInt(mini.getText().toString());
         }
         else {
-            mini_tern = 1;
+            mini_tern = 0;
         }
         if(!max.getText().toString().equals("")) {
             max_tern = Integer.parseInt(max.getText().toString());

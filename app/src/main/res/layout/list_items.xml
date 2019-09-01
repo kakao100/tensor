@@ -12,7 +12,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/monster_icon"
             android:layout_width="150dp"
             android:layout_height="80dp"
             android:layout_weight="1"
@@ -64,15 +64,13 @@
                     android:id="@+id/shortest_ternView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="stern" />
+                    android:layout_weight="1" />
 
                 <TextView
                     android:id="@+id/longest_ternView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ltern" />
+                    android:layout_weight="1" />
             </LinearLayout>
 
         </LinearLayout>
