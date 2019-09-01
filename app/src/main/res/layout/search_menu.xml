@@ -36,10 +36,9 @@
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
                 android:ems="10"
-                android:hint="@integer/zero"
+                android:hint="@integer/one"
                 android:inputType="number"
-                android:textAlignment="textEnd"
-                />
+                android:textAlignment="textEnd" />
 
             <TextView
                 android:id="@+id/connector"

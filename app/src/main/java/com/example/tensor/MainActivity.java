@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             mini_tern = Integer.parseInt(mini.getText().toString());
         }
         else {
-            mini_tern = 0;
+            mini_tern = 1;
         }
         if(!max.getText().toString().equals("")) {
             max_tern = Integer.parseInt(max.getText().toString());
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         if(!query.equals("")){
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
             for (Mons_data monster: selected_data) {
-                    if (monster.getname().contains(query)) {
+                    if (monster.getname()!=null&&monster.getname().contains(query)) {
                         filtered_mons_data.add(monster);
                 }
             }

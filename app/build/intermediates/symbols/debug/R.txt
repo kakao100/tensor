@@ -1259,9 +1259,10 @@ int integer mtrl_btn_anim_delay_ms 0x7f09000a
 int integer mtrl_btn_anim_duration_ms 0x7f09000b
 int integer mtrl_chip_anim_duration 0x7f09000c
 int integer mtrl_tab_indicator_anim_duration_ms 0x7f09000d
-int integer show_password_duration 0x7f09000e
-int integer status_bar_notification_info_maxnum 0x7f09000f
-int integer zero 0x7f090010
+int integer one 0x7f09000e
+int integer show_password_duration 0x7f09000f
+int integer status_bar_notification_info_maxnum 0x7f090010
+int integer zero 0x7f090011
 int interpolator mtrl_fast_out_linear_in 0x7f0a0000
 int interpolator mtrl_fast_out_slow_in 0x7f0a0001
 int interpolator mtrl_linear 0x7f0a0002

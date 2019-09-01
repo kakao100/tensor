@@ -142,7 +142,7 @@ public final class R {
     public static final class integer {
         private integer() {}
 
-        public static final int status_bar_notification_info_maxnum = 0x7f09000f;
+        public static final int status_bar_notification_info_maxnum = 0x7f090010;
     }
     public static final class layout {
         private layout() {}

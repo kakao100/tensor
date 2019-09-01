@@ -1,6 +1,8 @@
 package com.example.tensor;
 //モンスターデータのクラス
 
+import android.util.Log;
+
 public class Mons_data {
     //図鑑番号
     private int id;
@@ -44,46 +46,71 @@ public class Mons_data {
         // 最短スキルターンq最大スキルターン(数字),スキル効果名(日本語),スキル特徴ID(数字)qスキル特徴(日本語),変換元(数字),変換先の色(数字),リータースキルID(数字)qリーダースキル名(日本語),
         // リーダスキル効果(日本語),リーダスキル特徴ID(数字)qリーダスキル特徴(日本語)qリーダスキル特徴ID(数字)qリーダスキル特徴(日本語)q並列,
         // リーダースキル倍率HP,リーダースキル倍率攻撃,リーダースキル倍率回復,軽減の倍率(数字),覚醒(日本語)q覚醒(日本語)q覚醒(日本語),,,,
-        //1,ティラ,144q71q13,noqnoqno,1qヒートブレス,8,3,自分の攻撃力×10倍の火属性攻撃,1q単体ダメージq3q属性ダメージq,no,no,1q火の力,火属性の攻撃力が1.5倍。ドロップ操作時間を2秒延長。,1q属性倍率q1q攻撃倍率q1q操作時間延長q,0,1.5,0,0,noq,noq,
+        //0~9    1,ティラ,fire,no,2,2,×,ドラゴンタイプ,no,no,
+        //10~17 144,71,13,no,no,no,1,ヒートブレス,
+        //18~26 8,3,自分の攻撃力×10倍の火属性攻撃,1q単体ダメージq3q属性ダメージq,no,no,1,火の力,
+        // 火属性の攻撃力が1.5倍。ドロップ操作時間を2秒延長。,1q属性倍率q1q攻撃倍率q1q操作時間延長q,0,1.5,0,0,noq,noq,
         String[] data = line.split(",");
+        //for(int i=0;i<data.length;i++)
+        //Log.d("", "Mons_data: data["+i+"] = "+data[i]);
         String[] temp;
-        id = Integer.parseInt(data[0]);
-        name = data[1];
-        temp = split_q(data[2]);
-        hp = Integer.parseInt(temp[0]);
-        attack = Integer.parseInt(temp[1]);
-        cure = Integer.parseInt(temp[2]);
-        if (data[3].contains("no")){
-            hp_110 = 0;
-            attack_110 = 0;
-            cure_110 = 0;
+        if(!data[0].equals("no")) {
+            id = Integer.parseInt(data[0]);
+            name = data[1];
+            attribute = data[2];
+            subattribute = data[3];
+            rare = Integer.parseInt(data[4]);
+            cost = Integer.parseInt(data[5]);
+            if (data[6].equals("×"))
+                inheritance = false;
+            else
+                inheritance = true;
+            type1 = data[7];
+            type2 = data[8];
+            type3 = data[9];
+            if (data[10].contains("no")) {
+                hp = 0;
+                attack = 0;
+                cure = 0;
+            } else {
+                hp = Integer.parseInt(data[10]);
+                attack = Integer.parseInt(data[11]);
+                cure = Integer.parseInt(data[12]);
+            }
+            if (data[13].contains("no")) {
+                hp_110 = 0;
+                attack_110 = 0;
+                cure_110 = 0;
+            } else {
+                hp_110 = Integer.parseInt(data[13]);
+                attack_110 = Integer.parseInt(data[14]);
+                cure_110 = Integer.parseInt(data[15]);
+            }
+            //18~25 8,3,自分の攻撃力×10倍の火属性攻撃,1q単体ダメージq3q属性ダメージq,no,no,1,火の力,
+            // 火属性の攻撃力が1.5倍。ドロップ操作時間を2秒延長。,1q属性倍率q1q攻撃倍率q1q操作時間延長q,0,1.5,0,0,noq,noq,
+            if (!data[16].equals("no")) {
+                skill_id = Integer.parseInt(data[16]);
+                skill_name = data[17];
+                longest_tern = Integer.parseInt(data[18]);
+                shortest_tern = Integer.parseInt(data[19]);
+                skill_exp = data[20];
+                skill_feature = split_q(data[21]);
+            }
+            convert_drop = 0;
+            converted_drop = 0;
+            if (!data[24].equals("no")) {
+                leader_skill_id = Integer.parseInt(data[24]);
+                leader_skill_name = data[25];
+                leader_skill_exp = data[26];
+                leader_skill_feature = split_q(data[27]);
+            }
+            //0をparseDouble出来ないのかな、、、
+            //エラーが出ます
+            //leader_skill_hp = Double.parseDouble(data[28]);
+            //leader_skill_attack = Double.parseDouble(data[29]);
+            //leader_skill_cure = Double.parseDouble(data[30]);
+            //leader_skill_Alle = Double.parseDouble(data[31]);
         }
-        else{
-            temp = split_q(data[3]);
-            hp_110 = Integer.parseInt(temp[0]);
-            attack_110 = Integer.parseInt(temp[1]);
-            cure_110 = Integer.parseInt(temp[2]);
-        }
-        temp = split_q(data[4]);
-        skill_id = Integer.parseInt(temp[0]);
-        skill_name = temp[1];
-        longest_tern = Integer.parseInt(data[5]);
-        shortest_tern = Integer.parseInt(data[6]);
-        skill_exp=data[7];
-        skill_feature = split_q(data[8]);
-        convert_drop = 0;
-        converted_drop = 0;
-        temp = split_q(data[11]);
-        leader_skill_id = Integer.parseInt(temp[0]);
-        leader_skill_name = temp[1];
-        leader_skill_exp = data[12];
-        leader_skill_feature = split_q(data[13]);
-        //0をparseDouble出来ないのかな、、、
-        //エラーが出ます
-        //leader_skill_hp = Double.parseDouble(data[14]);
-        //leader_skill_attack = Double.parseDouble(data[15]);
-        //leader_skill_cure = Double.parseDouble(data[16]);
-        //leader_skill_Alle = Double.parseDouble(data[17]);
     }
     public int getid(){ return id; }
     public String getname(){ return name; }

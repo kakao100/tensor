@@ -523,6 +523,7 @@
     <integer name="mtrl_btn_anim_duration_ms">100</integer>
     <integer name="mtrl_chip_anim_duration">100</integer>
     <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="one">1</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <integer name="zero">0</integer>

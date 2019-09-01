@@ -47,9 +47,10 @@ public class MyAdapter extends BaseAdapter {
         ((TextView)view.findViewById(R.id.hpView)).setText("HP "+String.valueOf(monster.gethp()));
         ((TextView)view.findViewById(R.id.atkView)).setText(" 攻撃 "+String.valueOf(monster.getattack()));
         ((TextView)view.findViewById(R.id.cureView)).setText(" 回復 "+String.valueOf(monster.getcure()));
-        ((TextView)view.findViewById(R.id.shortest_ternView)).setText(" スキルターン "+String.valueOf(monster.getshortest_tern()));
-        ((TextView)view.findViewById(R.id.longest_ternView)).setText("("+String.valueOf(monster.getlongest_tern())+")");
-
+        if(monster.getshortest_tern()!=0) {
+            ((TextView) view.findViewById(R.id.shortest_ternView)).setText(" スキルターン " + String.valueOf(monster.getshortest_tern()));
+            ((TextView) view.findViewById(R.id.longest_ternView)).setText("(" + String.valueOf(monster.getlongest_tern()) + ")");
+        }
 
         return view;
     }
