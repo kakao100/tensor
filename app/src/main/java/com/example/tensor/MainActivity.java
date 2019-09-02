@@ -3,18 +3,12 @@ package com.example.tensor;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.Switch;
 
 
 import java.io.BufferedReader;
@@ -22,64 +16,37 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import static com.example.tensor.R.id.search_text;
-
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     ArrayList<Mons_data> mons_list = new ArrayList<>();
     ArrayList<Mons_data> selected_data = new ArrayList<>();
     EditText mini,max;
-    Switch inh_switch;
-    ListView listView;
     MyAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.search_menu);
         //全てのデータを代入するのはここの方が良さそう。
         data_reader();
         //最初の画面を表示するメソッド呼び出し。
-        SetFirstScreen();
+        SetResultScreen();
     }
 
-
-    private void SetFirstScreen() {
-
-        setContentView(R.layout.search_menu);
-        mini = (EditText) findViewById(R.id.mini_tern);
-        max = (EditText) findViewById(R.id.max_tern);
-        inh_switch = (Switch) findViewById(R.id.inh_Swich);
-        //検索画面へ移行するボタン
-        Button search_button = findViewById(R.id.search);
-        search_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //結果表示画面へ
-                SetResultScreen();
-            }
-        });
-    }
     private void SetResultScreen() {
         setContentView(R.layout.results);
+
         //入力データを受け取る。
         //まだ二つしか要素がないがこれから。
-        int mini_tern,max_tern;
-        if(!mini.getText().toString().equals("")) {
+        int mini_tern=0,max_tern=100;
+        if(mini!=null&&!mini.getText().toString().equals("")) {
             mini_tern = Integer.parseInt(mini.getText().toString());
         }
-        else {
-            mini_tern = 0;
-        }
-        if(!max.getText().toString().equals("")) {
+        if(max!=null&&!max.getText().toString().equals("")) {
             max_tern = Integer.parseInt(max.getText().toString());
         }
-        else {
-            max_tern=100;
-        }
         // ListViewにArrayAdapterを設定する
-        listView = (ListView)findViewById(R.id.listView);
+        ListView listView = (ListView)findViewById(R.id.listView);
         //ここでデータを挿入する。
         data_selector(mini_tern,max_tern);
         adapter = new MyAdapter(MainActivity.this);
@@ -99,32 +66,23 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         search_text.setQueryHint("モンスターが検索できるよ");
 
         //ソート画面へ行くボタン
-        Button sort_button = findViewById(R.id.sort_button);
-        sort_button.setOnClickListener(new View.OnClickListener() {
+        Button search_button = findViewById(R.id.search_button);
+        search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //ソートの画面へ
-                SetSortScreen();
-            }
-        });
-
-        //初期画面へ戻るボタン
-        Button back_to_main_button = findViewById(R.id.back_to_main);
-        back_to_main_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //初期画面へ
-                SetFirstScreen();
+                SetSearchScreen();
             }
         });
     }
 
-    //ソート画面
-    private void SetSortScreen() {
+    private void SetSearchScreen() {
 
-        setContentView(R.layout.sort);
-        //検索画面へ戻るボタン
-        Button search_button = findViewById(R.id.back_to_main);
+        setContentView(R.layout.search_menu);
+        mini = (EditText) findViewById(R.id.mini_tern);
+        max = (EditText) findViewById(R.id.max_tern);
+        //検索画面へ移行するボタン
+        Button search_button = findViewById(R.id.search);
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

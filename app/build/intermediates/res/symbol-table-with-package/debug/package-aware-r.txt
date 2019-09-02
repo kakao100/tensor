@@ -6587,7 +6587,6 @@ id always
 id async
 id atkView
 id auto
-id back_to_main
 id barrier
 id beginning
 id blocking
@@ -6645,7 +6644,7 @@ id icon_group
 id ifRoom
 id image
 id info
-id inh_Swich
+id inheritance
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -6658,7 +6657,6 @@ id linearLayout
 id listMode
 id listView
 id list_item
-id longest_ternView
 id masked
 id max_tern
 id message
@@ -6694,7 +6692,6 @@ id right_side
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
-id sawa
 id screen
 id scroll
 id scrollIndicatorDown
@@ -6716,18 +6713,17 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id shortcut
-id shortest_ternView
 id showCustom
 id showHome
 id showTitle
-id skill_boost
+id skill_exp
+id skill_name
 id skill_tern
 id smallLabel
 id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
-id sort_button
 id spacer
 id split_action_bar
 id spread
@@ -6744,12 +6740,13 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id ternView
 id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -6853,7 +6850,6 @@ layout search_menu
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout sort
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -6916,7 +6912,7 @@ string path_password_strike_through
 string search
 string search_menu_title
 string shortest_skill_tern
-string skill_boost_text
+string skill_search_tips
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

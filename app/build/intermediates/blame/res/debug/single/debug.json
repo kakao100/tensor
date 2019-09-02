@@ -184,12 +184,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1678.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3165.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3165.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2874.png.flat",
@@ -292,16 +292,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1922.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/anim/abc_tooltip_exit.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2126.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2126.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2526.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2526.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/anim/abc_tooltip_exit.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3183.png.flat",
@@ -392,16 +392,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2065.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable-xhdpi-v4/design_ic_visibility.png"
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5329.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5329.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon332.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon332.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5329.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5329.png"
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable-xhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2465.png.flat",
@@ -524,12 +524,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1765.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3069.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3069.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_design_tint_password_toggle.xml.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3069.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3069.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3469.png.flat",
@@ -980,12 +980,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3401.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3401.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1365.png.flat",
@@ -1064,12 +1064,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1905.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3096.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3096.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3496.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3496.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3096.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3096.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2439.png.flat",
@@ -1280,12 +1280,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3801.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon72.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon72.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4901.png.flat",
@@ -1808,12 +1808,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5062.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable-mdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4371.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4371.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable-mdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1930.png.flat",
@@ -1904,12 +1904,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5080.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1950.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1950.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4403.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4403.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1950.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1950.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2116.png.flat",
@@ -2136,24 +2136,24 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1427.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2527.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2527.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5198.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5198.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4725.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4725.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1923.png.flat",
@@ -2176,12 +2176,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1357.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1834.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1834.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1834.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1834.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1861.png.flat",
@@ -2208,12 +2208,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2466.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4186.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4186.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2493.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2493.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4186.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4186.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4489.png.flat",
@@ -2312,12 +2312,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon889.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon360.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon360.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3216.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3216.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon360.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon360.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -2524,10 +2524,6 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon567.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_sort.xml.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/layout/sort.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5150.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5150.png"
     },
@@ -2696,16 +2692,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2580.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4099.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4099.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5382.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5382.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1297.png.flat",
@@ -2856,16 +2852,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon246.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5443.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5443.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5121.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5121.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1514.png.flat",
@@ -3272,12 +3268,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2067.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4306.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4306.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4306.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4306.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4406.png.flat",
@@ -3464,12 +3460,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4815.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2142.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2142.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2349.png.flat",
@@ -3844,12 +3840,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4619.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4050.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4050.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4319.png.flat",
@@ -3920,12 +3916,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon404.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon265.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon265.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_chip_close_icon_tint.xml.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon265.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon265.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4718.png.flat",
@@ -4352,12 +4348,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5375.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color-v21/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3633.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3633.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color-v21/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2533.png.flat",
@@ -4416,12 +4412,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5284.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3246.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3246.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon886.png.flat",
@@ -4712,12 +4708,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3875.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon91.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon91.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
@@ -5416,12 +5412,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2862.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4294.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4294.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5394.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5394.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4294.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4294.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4888.png.flat",
@@ -5732,16 +5728,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5044.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5367.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5367.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1114.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1114.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1851.png.flat",
@@ -5848,12 +5844,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon501.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2243.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2243.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1375.png.flat",
@@ -6080,12 +6076,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4904.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4365.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4365.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1840.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1840.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4365.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4365.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2208.png.flat",
@@ -6672,12 +6668,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3987.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4540.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4540.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon579.png.flat",
@@ -6724,12 +6720,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3726.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_chip_background_color.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_chip_background_color.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3092.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3092.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_chip_background_color.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_chip_background_color.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3587.png.flat",
@@ -6760,12 +6756,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3126.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2583.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2583.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3500.png.flat",
@@ -7480,12 +7476,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1561.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4078.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4078.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1700.png.flat",
@@ -7652,16 +7648,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3621.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1832.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1832.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3866.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3866.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1125.png.flat",
@@ -7772,16 +7768,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon926.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3005.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3005.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4105.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4105.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3091.png.flat",
@@ -7900,12 +7896,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3012.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3212.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3212.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1507.png.flat",
@@ -8016,16 +8012,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon692.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4201.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4201.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2550.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2550.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3325.png.flat",
@@ -8184,12 +8180,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4137.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon778.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon778.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon546.png.flat",
@@ -8200,12 +8196,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5005.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3901.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3901.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1597.png.flat",
@@ -8244,12 +8240,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1797.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3084.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3084.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3595.png.flat",
@@ -8460,12 +8456,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3743.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4818.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4818.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1839.png.flat",
@@ -8844,16 +8840,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon571.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/switch_thumb_material_light.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3240.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3240.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4990.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4990.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2965.png.flat",
@@ -9164,12 +9160,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1924.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_normal.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4349.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4349.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2724.png.flat",
@@ -9360,12 +9356,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon334.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2006.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2006.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2685.png.flat",
@@ -9480,16 +9476,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5258.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4754.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4754.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2619.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2619.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3058.png.flat",
@@ -9544,12 +9540,12 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1206.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1206.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5006.png.flat",
@@ -9568,16 +9564,16 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1958.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1958.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3402.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3402.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4276.png.flat",
@@ -9896,16 +9892,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4527.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3497.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3497.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4750.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4750.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1755.png.flat",
@@ -9940,12 +9936,12 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4442.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4442.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2998.png.flat",
@@ -10696,12 +10692,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3905.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_tabs_legacy_text_color_selector.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_tabs_legacy_text_color_selector.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1109.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1109.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_tabs_legacy_text_color_selector.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3021.png.flat",
@@ -10712,12 +10708,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4121.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1134.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1134.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2830.png.flat",
@@ -10972,12 +10968,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1082.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3071.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3071.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5482.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5482.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3071.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3071.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2327.png.flat",
@@ -11152,12 +11148,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon622.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/tooltip_frame_light.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon283.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon283.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/tooltip_frame_light.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3934.png.flat",
@@ -11184,12 +11180,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1695.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon415.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon415.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon883.png.flat",
@@ -11388,10 +11384,6 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon558.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3189.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3189.png"
     },
@@ -11404,12 +11396,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5186.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1970.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1970.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5225.png.flat",
@@ -11440,16 +11436,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5279.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_checked_circle.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable/ic_mtrl_chip_checked_circle.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2153.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2153.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3253.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3253.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_checked_circle.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable/ic_mtrl_chip_checked_circle.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon204.png.flat",
@@ -11524,12 +11520,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3050.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3135.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3135.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5250.png.flat",
@@ -11592,16 +11588,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3396.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5432.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5432.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5432.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5432.png"
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5132.png.flat",
@@ -11616,12 +11612,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5068.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3460.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3460.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -11696,12 +11692,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3760.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5314.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5314.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5097.png.flat",
@@ -11956,12 +11952,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon583.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon115.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon115.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4086.png.flat",
@@ -11992,16 +11988,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2296.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_ps_icon.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/ps_icon.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1113.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1113.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3992.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3992.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_ps_icon.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/ps_icon.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -12188,16 +12184,16 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1869.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1869.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5147.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5147.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4856.png.flat",
@@ -12688,12 +12684,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5192.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_screen_simple.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4152.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4152.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2996.png.flat",
@@ -12836,12 +12832,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon758.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1947.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1947.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_btn_stroke_color_selector.xml.flat",
@@ -13356,12 +13352,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2186.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4970.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4970.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon679.png.flat",
@@ -13480,12 +13476,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2248.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3792.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3792.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2586.png.flat",
@@ -14048,12 +14044,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2727.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4614.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4614.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4759.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4759.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4614.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4614.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2343.png.flat",
@@ -14120,12 +14116,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1634.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4160.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4160.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4455.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4455.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4160.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4160.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1157.png.flat",
@@ -14260,12 +14256,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4395.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon481.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon481.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3444.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3444.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon481.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon481.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2761.png.flat",
@@ -14304,16 +14300,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4934.png"
     },
     {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1271.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1271.png"
+    },
+    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1271.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1271.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon513.png.flat",
@@ -14416,12 +14412,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon365.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2501.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2501.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1011.png.flat",
@@ -14456,12 +14452,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4397.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3150.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3150.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2910.png.flat",
@@ -14524,12 +14520,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1304.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1956.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1956.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3679.png.flat",
@@ -14876,12 +14872,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon78.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon515.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon515.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4702.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4702.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon515.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon515.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2317.png.flat",
@@ -14996,10 +14992,6 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2283.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4396.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4396.png"
     },
@@ -15010,6 +15002,10 @@
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1216.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1216.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2576.png.flat",
@@ -15172,12 +15168,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3790.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3115.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3115.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2690.png.flat",
@@ -15996,12 +15992,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4927.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4288.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4288.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3037.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3037.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4288.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4288.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4633.png.flat",
@@ -16056,12 +16052,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2736.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2597.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2597.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4836.png.flat",
@@ -16136,16 +16132,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2754.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3055.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3055.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4809.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4809.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1973.png.flat",
@@ -16472,12 +16468,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1741.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1803.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1803.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2158.png.flat",
@@ -16528,12 +16524,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4660.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/anim/abc_slide_in_top.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon460.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon460.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4232.png.flat",
@@ -16688,12 +16684,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2814.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable/design_snackbar_background.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2175.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2175.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2291.png.flat",
@@ -16740,12 +16736,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2984.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4205.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4205.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3105.png.flat",
@@ -17348,12 +17344,12 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1710.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1710.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4919.png.flat",
@@ -17748,12 +17744,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1582.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4768.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4768.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5222.png.flat",
@@ -17776,12 +17772,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1321.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1228.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1228.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/131d2db1503f7e8debc70a8450ed3632/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2295.png.flat",
@@ -18004,16 +18000,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3639.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5313.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5313.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1967.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1967.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon791.png.flat",
@@ -18072,12 +18068,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon788.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1178.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1178.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
@@ -18196,16 +18192,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5447.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_mtrl_fab_show_motion_spec.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/mtrl_fab_show_motion_spec.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1926.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1926.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4756.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4756.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_mtrl_fab_show_motion_spec.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/mtrl_fab_show_motion_spec.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon336.png.flat",
@@ -18332,12 +18328,12 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2574.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2574.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4774.png.flat",
@@ -19008,12 +19004,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1638.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1804.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1804.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1380.png.flat",
@@ -19664,12 +19660,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon23.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4905.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4905.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3805.png.flat",
@@ -19684,12 +19680,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3830.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4321.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4321.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2730.png.flat",
@@ -19812,12 +19808,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4939.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1891.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1891.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon187.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon187.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1891.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1891.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4582.png.flat",
@@ -19920,16 +19916,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1014.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3893.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3893.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2350.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2350.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4346.png.flat",
@@ -20004,12 +20000,12 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1605.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1605.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1266.png.flat",
@@ -20100,12 +20096,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4393.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5446.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5446.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3795.png.flat",
@@ -20740,12 +20736,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon893.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4253.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4253.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon308.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon308.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4253.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4253.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon101.png.flat",
@@ -20764,12 +20760,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1153.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_color_selector.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_btn_text_color_selector.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1981.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1981.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_color_selector.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/color/mtrl_btn_text_color_selector.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3385.png.flat",
@@ -20880,12 +20876,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5354.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color-v23/abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4314.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4314.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1927.png.flat",
@@ -20992,12 +20988,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4460.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2435.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2435.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4486.png.flat",
@@ -21028,12 +21024,12 @@
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4220.png.flat",
@@ -21296,12 +21292,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3915.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/layout/design_navigation_item_separator.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon434.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon434.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3615.png.flat",
@@ -21564,12 +21560,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3085.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2633.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2633.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4185.png.flat",
@@ -21780,12 +21776,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon873.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4127.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4127.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4127.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4127.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5333.png.flat",
@@ -21812,12 +21808,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3636.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2054.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2054.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3336.png.flat",
@@ -22000,12 +21996,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4697.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3750.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3750.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4736.png.flat",
@@ -22348,12 +22344,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3619.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5320.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5320.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -22532,12 +22528,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4680.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon496.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon496.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4380.png.flat",
@@ -22572,12 +22568,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4173.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5455.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5455.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1618.png.flat",
@@ -22600,12 +22596,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4212.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
         "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3530.png.flat",
@@ -22632,12 +22628,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3907.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2807.png.flat",
@@ -22736,12 +22732,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5101.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1968.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1968.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3412.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3412.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1968.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1968.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3880.png.flat",
@@ -22916,12 +22912,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3673.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1825.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1825.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2857.png.flat",
@@ -22960,12 +22956,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1821.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon3048.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3048.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon324.png.flat",
@@ -22976,16 +22972,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1397.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4684.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4684.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2273.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2273.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon117.png.flat",
@@ -23168,12 +23164,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3195.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon353.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon353.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1800.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1800.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon353.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon353.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2155.png.flat",
@@ -23212,12 +23208,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3284.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_btn_check_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4918.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4918.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1461.png.flat",
@@ -23504,12 +23500,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2836.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1165.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1165.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/09e1e3b2602a1d3e31833ec72f41a7bc/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4533.png.flat",
@@ -23700,12 +23696,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3847.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon502.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon502.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4715.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4715.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon502.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon502.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2387.png.flat",
@@ -23820,16 +23816,16 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon1697.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2565.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2565.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5105.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5105.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon1790.png.flat",
@@ -23900,12 +23896,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon3108.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_design_fab_show_motion_spec.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/design_fab_show_motion_spec.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4148.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4148.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/animator_design_fab_show_motion_spec.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/animator/design_fab_show_motion_spec.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon40.png.flat",
@@ -24000,12 +23996,12 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4473.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
-        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/layout/design_text_input_password_icon.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon2180.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon2180.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/Users/kou/.gradle/caches/transforms-2/files-2.1/5adf5d43ef19ac6cb4fb991776283e7a/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon260.png.flat",

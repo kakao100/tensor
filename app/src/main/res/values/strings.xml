@@ -7,5 +7,5 @@
     <integer name="hundred">100</integer>
     <string name="shortest_skill_tern">最小スキルターン数</string>
     <string name="inheritance">継承</string>
-    <string name="skill_boost_text">スキブ覚醒数</string>
+    <string name="skill_search_tips">スキルを持たないモンスターを検索する際は両側に0を入力してください</string>
 </resources>

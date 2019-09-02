@@ -1,8 +1,7 @@
 package com.example.tensor;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -5556,9 +5555,7 @@ public class MyAdapter extends BaseAdapter {
         this.layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
-    public void setList(ArrayList<Mons_data> mons_data_list){
-        this.mons_data_list=mons_data_list;
-    }
+    public void setList(ArrayList<Mons_data> mons_data_list){ this.mons_data_list=mons_data_list; }
 
     @Override
     public int getCount() {
@@ -5578,6 +5575,7 @@ public class MyAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
+        Log.d("", "getView: check");
         view = layoutInflater.inflate(R.layout.list_items,viewGroup,false);
         Mons_data monster=mons_data_list.get(i);
 
@@ -5589,10 +5587,16 @@ public class MyAdapter extends BaseAdapter {
         ((TextView)view.findViewById(R.id.atkView)).setText(" 攻撃 "+String.valueOf(monster.getattack()));
         ((TextView)view.findViewById(R.id.cureView)).setText(" 回復 "+String.valueOf(monster.getcure()));
         if(monster.getshortest_tern()!=0) {
-            ((TextView) view.findViewById(R.id.shortest_ternView)).setText(" スキルターン " + String.valueOf(monster.getshortest_tern()));
-            ((TextView) view.findViewById(R.id.longest_ternView)).setText("(" + String.valueOf(monster.getlongest_tern()) + ")");
+            ((TextView) view.findViewById(R.id.ternView)).setText("ST " + String.valueOf(monster.getshortest_tern())+"(" + String.valueOf(monster.getlongest_tern()) + ")");
         }
-
+        if(monster.getinheritance()) {
+            ((TextView) view.findViewById(R.id.inheritance)).append("○");
+        }
+        else {
+            ((TextView) view.findViewById(R.id.inheritance)).append("-");
+        }
+        ((TextView) view.findViewById(R.id.skill_name)).setText(monster.getskill_name());
+        ((TextView) view.findViewById(R.id.skill_exp)).setText(monster.getskill_exp());
         return view;
     }
 

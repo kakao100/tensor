@@ -38,6 +38,7 @@ public class Mons_data {
     private double leader_skill_cure;
     private double leader_skill_Alle;
     private String[] awa;
+    private String[] sawa;
 
 
     public Mons_data(String line) {
@@ -143,6 +144,7 @@ public class Mons_data {
     public double getleader_skill_cure(){ return leader_skill_cure; }
     public double getleader_skill_Alle(){ return leader_skill_Alle; }
     public String[] getawa(){ return awa; }
+    public String[] getsawa(){ return sawa; }
     public String[] split_q(String line){return line.split("q");}
 
 
