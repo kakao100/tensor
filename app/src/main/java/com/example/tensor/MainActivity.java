@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         if(!query.equals("")){
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
             for (Mons_data monster: selected_data) {
-                    if (monster.getname()!=null&&monster.getname().contains(query)) {
+                    if ((monster.getname()!=null&&monster.getname().contains(query))||(monster.getskill_name()!=null&&monster.getskill_name().contains(query))) {
                         filtered_mons_data.add(monster);
                 }
             }
