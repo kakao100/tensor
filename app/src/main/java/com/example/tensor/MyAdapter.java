@@ -1,7 +1,6 @@
 package com.example.tensor;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -5582,9 +5581,10 @@ public class MyAdapter extends BaseAdapter {
         monster_icon.setImageResource(image[monster.getid()]);
 
         ((TextView)view.findViewById(R.id.nameView)).setText(monster.getname());
-        ((TextView)view.findViewById(R.id.hpView)).setText("HP "+String.valueOf(monster.gethp()));
-        ((TextView)view.findViewById(R.id.atkView)).setText(" 攻撃 "+String.valueOf(monster.getattack()));
-        ((TextView)view.findViewById(R.id.cureView)).setText(" 回復 "+String.valueOf(monster.getcure()));
+        ((TextView)view.findViewById(R.id.statusView)).setText("HP "+String.valueOf(monster.gethp())+" 攻撃 "+String.valueOf(monster.getattack())+" 回復 "+String.valueOf(monster.getcure()));
+        if(monster.gethp_110()!=0) {
+            ((TextView)view.findViewById(R.id.status110View)).setText("(HP "+String.valueOf(monster.gethp_110())+" 攻撃 "+String.valueOf(monster.getattack_110())+" 回復 "+String.valueOf(monster.getcure_110())+")");
+        }
         if(monster.getshortest_tern()!=0) {
             ((TextView) view.findViewById(R.id.ternView)).setText("ST " + String.valueOf(monster.getshortest_tern())+"(" + String.valueOf(monster.getlongest_tern()) + ")");
         }

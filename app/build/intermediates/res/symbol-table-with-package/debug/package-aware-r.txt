@@ -6585,7 +6585,6 @@ id alertTitle
 id all
 id always
 id async
-id atkView
 id auto
 id barrier
 id beginning
@@ -6606,7 +6605,6 @@ id container
 id content
 id contentPanel
 id coordinator
-id cureView
 id custom
 id customPanel
 id decor_content_parent
@@ -6638,7 +6636,6 @@ id group_divider
 id groups
 id home
 id homeAsUp
-id hpView
 id icon
 id icon_group
 id ifRoom
@@ -6733,6 +6730,8 @@ id src_in
 id src_over
 id standard
 id start
+id status110View
+id statusView
 id stretch
 id submenuarrow
 id submit_area
