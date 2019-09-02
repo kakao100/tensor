@@ -33,7 +33,7 @@
                 android:text="継承:"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="24sp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -88,6 +88,12 @@
                     android:textAlignment="textStart"
                     android:textSize="14sp" />
 
+                <TextView
+                    android:id="@+id/rareView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -105,6 +111,26 @@
                     android:id="@+id/skill_exp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/awa1View"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/awa1num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
             </LinearLayout>
 
         </LinearLayout>

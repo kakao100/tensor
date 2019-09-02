@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         //入力データを受け取る。
         //まだ二つしか要素がないがこれから。
-        int mini_tern=0,max_tern=100;
+        int mini_tern=1,max_tern=100;
         if(mini!=null&&!mini.getText().toString().equals("")) {
             mini_tern = Integer.parseInt(mini.getText().toString());
         }

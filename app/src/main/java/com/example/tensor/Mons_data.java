@@ -109,6 +109,8 @@ public class Mons_data {
             //leader_skill_attack = Double.parseDouble(data[29]);
             //leader_skill_cure = Double.parseDouble(data[30]);
             //leader_skill_Alle = Double.parseDouble(data[31]);
+            awa = split_q(data[32]);
+            sawa = split_q(data[33]);
         }
     }
     public int getid(){ return id; }

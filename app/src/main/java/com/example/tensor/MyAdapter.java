@@ -1,6 +1,7 @@
 package com.example.tensor;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -5548,6 +5549,82 @@ public class MyAdapter extends BaseAdapter {
                 R.drawable.mob_icon5530,
                 R.drawable.mob_icon5531
     };
+    private Integer[] awaimage = {
+            0,
+            R.drawable.ka_skill_01,
+            R.drawable.ka_skill_02,
+            R.drawable.ka_skill_03,
+            R.drawable.ka_skill_04,
+            R.drawable.ka_skill_05,
+            R.drawable.ka_skill_06,
+            R.drawable.ka_skill_07,
+            R.drawable.ka_skill_08,
+            R.drawable.ka_skill_09,
+            R.drawable.ka_skill_10,
+            R.drawable.ka_skill_11,
+            R.drawable.ka_skill_12,
+            R.drawable.ka_skill_13,
+            R.drawable.ka_skill_14,
+            R.drawable.ka_skill_15,
+            R.drawable.ka_skill_16,
+            R.drawable.ka_skill_17,
+            R.drawable.ka_skill_18,
+            R.drawable.ka_skill_19,
+            R.drawable.ka_skill_20,
+            R.drawable.ka_skill_21,
+            R.drawable.ka_skill_22,
+            R.drawable.ka_skill_23,
+            R.drawable.ka_skill_24,
+            R.drawable.ka_skill_25,
+            R.drawable.ka_skill_26,
+            R.drawable.ka_skill_27,
+            R.drawable.ka_skill_28,
+            R.drawable.ka_skill_29,
+            R.drawable.ka_skill_30,
+            R.drawable.ka_skill_31,
+            R.drawable.ka_skill_32,
+            R.drawable.ka_skill_33,
+            R.drawable.ka_skill_34,
+            R.drawable.ka_skill_35,
+            R.drawable.ka_skill_36,
+            R.drawable.ka_skill_37,
+            R.drawable.ka_skill_38,
+            R.drawable.ka_skill_39,
+            R.drawable.ka_skill_40,
+            R.drawable.ka_skill_41,
+            R.drawable.ka_skill_42,
+            R.drawable.ka_skill_43,
+            R.drawable.ka_skill_44,
+            R.drawable.ka_skill_45,
+            R.drawable.ka_skill_46,
+            R.drawable.ka_skill_47,
+            R.drawable.ka_skill_48,
+            R.drawable.ka_skill_49,
+            R.drawable.ka_skill_50,
+            R.drawable.ka_skill_51,
+            R.drawable.ka_skill_52,
+            R.drawable.ka_skill_53,
+            R.drawable.ka_skill_54,
+            R.drawable.ka_skill_55,
+            R.drawable.ka_skill_56,
+            R.drawable.ka_skill_57,
+            R.drawable.ka_skill_58,
+            R.drawable.ka_skill_59,
+            R.drawable.ka_skill_60,
+            R.drawable.ka_skill_61,
+            R.drawable.ka_skill_62,
+            R.drawable.ka_skill_63,
+            R.drawable.ka_skill_64,
+            R.drawable.ka_skill_65,
+            R.drawable.ka_skill_66,
+            R.drawable.ka_skill_67,
+            R.drawable.ka_skill_68,
+            R.drawable.ka_skill_69,
+            R.drawable.ka_skill_70,
+            R.drawable.ka_skill_71,
+            R.drawable.ka_skill_72
+
+    };
 
     public MyAdapter(Context context){
         this.context=context;
@@ -5580,6 +5657,8 @@ public class MyAdapter extends BaseAdapter {
         ImageView monster_icon = (ImageView)view.findViewById(R.id.monster_icon);
         monster_icon.setImageResource(image[monster.getid()]);
 
+        ImageView awa1 = (ImageView)view.findViewById(R.id.awa1View);
+        awa1.setImageResource(awaimage[1]);
         ((TextView)view.findViewById(R.id.nameView)).setText(monster.getname());
         ((TextView)view.findViewById(R.id.statusView)).setText("HP "+String.valueOf(monster.gethp())+" 攻撃 "+String.valueOf(monster.getattack())+" 回復 "+String.valueOf(monster.getcure()));
         if(monster.gethp_110()!=0) {
@@ -5596,6 +5675,7 @@ public class MyAdapter extends BaseAdapter {
         }
         ((TextView) view.findViewById(R.id.skill_name)).setText(monster.getskill_name());
         ((TextView) view.findViewById(R.id.skill_exp)).setText(monster.getskill_exp());
+        ((TextView)view.findViewById(R.id.rareView)).setText("☆ "+String.valueOf(monster.getrare()));
         return view;
     }
 
