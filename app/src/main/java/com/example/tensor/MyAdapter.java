@@ -5553,6 +5553,7 @@ public class MyAdapter extends BaseAdapter {
     public MyAdapter(Context context){
         this.context=context;
         this.layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        Log.d("", "MyAdapter: "+context.getApplicationContext());
     }
 
     public void setList(ArrayList<Mons_data> mons_data_list){ this.mons_data_list=mons_data_list; }
