@@ -372,10 +372,6 @@
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4013.png"
     },
     {
-        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_list_items.xml.flat",
-        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/layout/list_items.xml"
-    },
-    {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon5470.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon5470.png"
     },
@@ -19394,6 +19390,10 @@
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4931.png.flat",
         "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/drawable/mob_icon4931.png"
+    },
+    {
+        "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/layout_mons_list_items.xml.flat",
+        "source": "/Users/kou/AndroidStudioProjects/tensor/app/src/main/res/layout/mons_list_items.xml"
     },
     {
         "merged": "/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/res/merged/debug/drawable_mob_icon4000.png.flat",
