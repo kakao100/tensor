@@ -5579,7 +5579,7 @@ private Integer[] awaimage = {
         R.drawable.ka_skill_25,
         R.drawable.ka_skill_26,
         R.drawable.ka_skill_27,
-        R.drawable.ka_skill_28,
+        0/*R.drawable.ka_skill_28*/,
         R.drawable.ka_skill_29,
         R.drawable.ka_skill_30,
         R.drawable.ka_skill_31,
@@ -5614,16 +5614,22 @@ private Integer[] awaimage = {
         R.drawable.ka_skill_60,
         R.drawable.ka_skill_61,
         R.drawable.ka_skill_62,
-        R.drawable.ka_skill_63,
-        R.drawable.ka_skill_64,
-        R.drawable.ka_skill_65,
-        R.drawable.ka_skill_66,
-        R.drawable.ka_skill_67,
+        0/*R.drawable.ka_skill_63*/,
+        0/*R.drawable.ka_skill_64*/,
+        0/*R.drawable.ka_skill_65*/,
+        0/*R.drawable.ka_skill_66*/,
+        0/*R.drawable.ka_skill_67*/,
         R.drawable.ka_skill_68,
         R.drawable.ka_skill_69,
         R.drawable.ka_skill_70,
         R.drawable.ka_skill_71,
-        R.drawable.ka_skill_72
+        R.drawable.ka_skill_72,
+        R.drawable.ka_skill_73,
+        R.drawable.ka_skill_74,
+        R.drawable.ka_skill_75,
+        R.drawable.ka_skill_76,
+        R.drawable.ka_skill_77,
+        R.drawable.ka_skill_78
 
         };
 
