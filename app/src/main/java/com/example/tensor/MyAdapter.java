@@ -1,6 +1,8 @@
 package com.example.tensor;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -5685,11 +5687,30 @@ private Integer[] awaimage = {
 
         LinearLayout awaView = view.findViewById(R.id.awaView);
         for(String awa: monster.getawa()) {
-            ImageView awaImageView = new ImageView(context);
-            if(!awa.equals("no")) {
-                awaImageView.setImageResource(awaimage[Integer.parseInt(awa)]);
-                awaView.addView(awaImageView);
+            if(awa==null){
+                break;
             }
+            ImageView awaImageView = new ImageView(context);
+            awaImageView.setImageResource(awaimage[Integer.parseInt(awa)]);
+            awaView.addView(awaImageView);
+        }
+        LinearLayout sawaView = view.findViewById(R.id.sawaView);
+        boolean flag=false;
+        for(String sawa: monster.getsawa()) {
+            if(sawa==null){
+                break;
+            }
+            if(!flag){
+                TextView text = new TextView(context);
+                text.setText("超覚醒：");
+                text.setTypeface(Typeface.DEFAULT_BOLD);
+                text.setTextColor(Color.BLACK);
+                sawaView.addView(text);
+                flag=true;
+            }
+            ImageView sawaImageView = new ImageView(context);
+            sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
+            sawaView.addView(sawaImageView);
         }
         return view;
     }

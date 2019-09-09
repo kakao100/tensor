@@ -37,8 +37,8 @@ public class Mons_data {
     private double leader_skill_attack;
     private double leader_skill_cure;
     private double leader_skill_Alle;
-    private String[] awa;
-    private String[] sawa;
+    private String[] awa = new String[15];
+    private String[] sawa = new String[10];
 
 
     public Mons_data(String line) {
@@ -109,7 +109,9 @@ public class Mons_data {
             //leader_skill_attack = Double.parseDouble(data[29]);
             //leader_skill_cure = Double.parseDouble(data[30]);
             //leader_skill_Alle = Double.parseDouble(data[31]);
+            if(!data[32].contains("no"))
             awa = split_q(data[32]);
+            if(!data[33].contains("no"))
             sawa = split_q(data[33]);
         }
     }
