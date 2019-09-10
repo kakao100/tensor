@@ -20,49 +20,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="図鑑No" />
 
         <RadioButton
             android:id="@+id/attribute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="属性" />
 
         <RadioButton
             android:id="@+id/mons_rare"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="レア度" />
 
         <RadioButton
             android:id="@+id/mons_skill"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="スキルターン" />
 
         <RadioButton
             android:id="@+id/mons_hp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="HP" />
 
         <RadioButton
             android:id="@+id/mons_atk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="攻撃" />
 
         <RadioButton
             android:id="@+id/mons_cure"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RadioButton" />
+            android:text="回復" />
     </RadioGroup>
 
     <Switch
