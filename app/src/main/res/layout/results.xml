@@ -27,9 +27,10 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/SortButton"
+                android:id="@+id/sort_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
                 android:layout_weight="1"
                 android:text="ソート" />
 
@@ -37,6 +38,7 @@
                 android:id="@+id/search_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
                 android:layout_weight="1"
                 android:text="@string/search" />
         </LinearLayout>

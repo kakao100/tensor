@@ -1,6 +1,6 @@
 package com.example.tensor;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
 
 
 import android.os.Bundle;
@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 
-public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
+public class MainActivity extends Activity implements SearchView.OnQueryTextListener {
 
     ArrayList<Mons_data> mons_list = new ArrayList<>();
     ArrayList<Mons_data> selected_data = new ArrayList<>();
@@ -74,6 +74,28 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                 SetSearchScreen();
             }
         });
+
+        //ソート画面へ行くボタン
+        Button sort_button = findViewById(R.id.sort_button);
+        sort_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //ソートの画面へ
+                SetSortScreen();
+            }
+        });
+    }
+
+    private void SetSortScreen() {
+        setContentView(R.layout.sort);
+        Button search_button = findViewById(R.id.search_button);
+        search_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //結果の画面へ
+                SetResultScreen();
+            }
+        });
     }
 
     private void SetSearchScreen() {
@@ -82,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         mini = (EditText) findViewById(R.id.mini_tern);
         max = (EditText) findViewById(R.id.max_tern);
         //検索画面へ移行するボタン
-        Button search_button = findViewById(R.id.search);
+        Button search_button = findViewById(R.id.search_button);
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

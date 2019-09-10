@@ -75,7 +75,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/kou/
 	android:allowBackup
 		ADDED from /Users/kou/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from /Users/kou/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:10:9-40
+		ADDED from /Users/kou/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:10:9-62
 activity#com.example.tensor.MainActivity
 ADDED from /Users/kou/AndroidStudioProjects/tensor/app/src/main/AndroidManifest.xml:11:9-16:20
 	android:name

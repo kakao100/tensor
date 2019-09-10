@@ -5701,12 +5701,11 @@ private Integer[] awaimage = {
                 break;
             }
             if(!flag){
-                TextView text = new TextView(context);
-                text.setText("超覚醒：");
-                text.setTypeface(Typeface.DEFAULT_BOLD);
-                text.setTextColor(Color.BLACK);
-                sawaView.addView(text);
-                flag=true;
+                    TextView text = new TextView(context);
+                    text.setText("超覚醒：");
+                    text.setTextColor(Color.BLACK);
+                    sawaView.addView(text);
+                    flag=true;
             }
             ImageView sawaImageView = new ImageView(context);
             sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
