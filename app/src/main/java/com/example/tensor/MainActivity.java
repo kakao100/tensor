@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     private void SetResultScreen() {
         setContentView(R.layout.results);
 
+        display_name = result;
         //入力データを受け取る。
         //まだ二つしか要素がないがこれから。
         int mini_tern=1,max_tern=100;
@@ -77,7 +78,6 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
             @Override
             public void onClick(View v) {
                 //ソートの画面へ
-                display_name = result;
                 SetSearchScreen();
             }
         });
@@ -88,7 +88,6 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
             @Override
             public void onClick(View v) {
                 //ソートの画面へ
-                display_name = result;
                 SetSortScreen();
             }
         });
@@ -96,12 +95,12 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
 
     private void SetSortScreen() {
         setContentView(R.layout.sort);
+        display_name = sort;
         Button search_button = findViewById(R.id.search_button);
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //結果の画面へ
-                display_name = sort;
                 SetResultScreen();
             }
         });
@@ -109,7 +108,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
 
     private void SetSearchScreen() {
         setContentView(R.layout.search_menu);
-
+        display_name = search;
         mini = (EditText) findViewById(R.id.mini_tern);
         max = (EditText) findViewById(R.id.max_tern);
         //検索画面へ移行するボタン
@@ -118,7 +117,6 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
             @Override
             public void onClick(View v) {
                 //結果表示画面へ
-                display_name = search;
                 SetResultScreen();
             }
         });
@@ -192,21 +190,12 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            switch (display_name) {
-                case result:
-                    SetResultScreen();
-                    break;
-                case search:
-                    SetSearchScreen();
-                    break;
-                case sort:
-                    SetSortScreen();
-                    break;
-                    default:
-                        onDestroy();
+            if(display_name==search||display_name==sort) {
+                SetResultScreen();
+                return false;
             }
         }
-        return false/*super.onKeyDown(keyCode, event)*/;
+        return super.onKeyDown(keyCode, event);
     }
 
 }
