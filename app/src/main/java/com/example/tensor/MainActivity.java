@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.SearchView;
 
 
@@ -16,6 +18,8 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 
 public class MainActivity extends Activity implements SearchView.OnQueryTextListener {
@@ -28,7 +32,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     ArrayList<Mons_data> selected_data = new ArrayList<>();
     EditText mini,max;
     MyAdapter adapter;
+    RadioGroup radiogroup;
     int display_name=0;
+    String sorter="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,10 +58,85 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         if(max!=null&&!max.getText().toString().equals("")) {
             max_tern = Integer.parseInt(max.getText().toString());
         }
+
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
         //ここでデータを挿入する。
         data_selector(mini_tern,max_tern);
+        switch (sorter) {
+            case ("図鑑No"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.getid() - b.getid();
+                            }
+                        });
+                break;
+            case ("属性"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.getid() - b.getid();
+                            }
+                        });
+                break;
+            case ("レア度"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.getid() - b.getid();
+                            }
+                        });
+                break;
+            case ("スキルターン"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.getshortest_tern() - b.getshortest_tern();
+                            }
+                        });
+                break;
+            case ("HP"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.gethp() - b.gethp();
+                            }
+                        });
+                break;
+            case ("攻撃"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.getattack() - b.getattack();
+                            }
+                        });
+                break;
+            case ("回復"):
+                Collections.sort(
+                        selected_data,
+                        new Comparator<Mons_data>() {
+                            @Override
+                            public int compare(Mons_data a, Mons_data b) {
+                                return a.getcure() - b.getcure();
+                            }
+                        });
+                break;
+            default:
+        }
+
         adapter = new MyAdapter(MainActivity.this);
         adapter.setList(selected_data);
         listView.setAdapter(adapter);
@@ -70,7 +151,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         // SearchViewのSubmitボタンを使用不可にする
         search_text.setSubmitButtonEnabled(true);
         // SearchViewに何も入力していない時のテキストを設定
-        search_text.setQueryHint("モンスターが検索できるよ");
+        search_text.setQueryHint("モンスターが検索できるよ！！？！");
 
         //ソート画面へ行くボタン
         Button search_button = findViewById(R.id.search_button);
@@ -96,11 +177,17 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     private void SetSortScreen() {
         setContentView(R.layout.sort);
         display_name = sort;
+        radiogroup = (RadioGroup) findViewById(R.id.sort_group);
         Button search_button = findViewById(R.id.search_button);
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //結果の画面へ
+                int checkedId = radiogroup.getCheckedRadioButtonId();
+                if (checkedId != -1) {
+                    RadioButton radioButton = (RadioButton) findViewById(checkedId);
+                    sorter = radioButton.getText().toString();
+                }
                 SetResultScreen();
             }
         });
@@ -170,8 +257,8 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         if(!query.equals("")){
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
             for (Mons_data monster: selected_data) {
-                    if ((monster.getname()!=null&&monster.getname().contains(query))||(monster.getskill_name()!=null&&monster.getskill_name().contains(query))) {
-                        filtered_mons_data.add(monster);
+                if ((monster.getname()!=null&&monster.getname().contains(query))||(monster.getskill_name()!=null&&monster.getskill_name().contains(query))) {
+                    filtered_mons_data.add(monster);
                 }
             }
             //データをセット
@@ -197,5 +284,4 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         }
         return super.onKeyDown(keyCode, event);
     }
-
 }
