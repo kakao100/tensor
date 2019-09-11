@@ -6803,6 +6803,7 @@ id snackbar_text
 id snap
 id snapMargins
 id sort_button
+id sort_group
 id spacer
 id split_action_bar
 id spread
