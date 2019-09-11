@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SearchView;
+import android.widget.Switch;
 
 
 import java.io.BufferedReader;
@@ -35,6 +36,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     RadioGroup radiogroup;
     int display_name=0;
     String sorter="";
+    boolean reverse_flag = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,7 +92,10 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
                         new Comparator<Mons_data>() {
                             @Override
                             public int compare(Mons_data a, Mons_data b) {
-                                return a.getid() - b.getid();
+                                if(reverse_flag) {
+                                    return -(a.getrare() - b.getrare());
+                                }
+                                return a.getrare() - b.getrare();
                             }
                         });
                 break;
@@ -100,6 +105,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
                         new Comparator<Mons_data>() {
                             @Override
                             public int compare(Mons_data a, Mons_data b) {
+                                if(reverse_flag) {
+                                    return -(a.getshortest_tern() - b.getshortest_tern());
+                                }
                                 return a.getshortest_tern() - b.getshortest_tern();
                             }
                         });
@@ -110,6 +118,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
                         new Comparator<Mons_data>() {
                             @Override
                             public int compare(Mons_data a, Mons_data b) {
+                                if(reverse_flag) {
+                                    return -(a.gethp() - b.gethp());
+                                }
                                 return a.gethp() - b.gethp();
                             }
                         });
@@ -120,6 +131,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
                         new Comparator<Mons_data>() {
                             @Override
                             public int compare(Mons_data a, Mons_data b) {
+                                if(reverse_flag) {
+                                    return -(a.getattack() - b.getattack());
+                                }
                                 return a.getattack() - b.getattack();
                             }
                         });
@@ -130,6 +144,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
                         new Comparator<Mons_data>() {
                             @Override
                             public int compare(Mons_data a, Mons_data b) {
+                                if(reverse_flag) {
+                                    return -(a.getcure() - b.getcure());
+                                }
                                 return a.getcure() - b.getcure();
                             }
                         });
@@ -183,6 +200,13 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
             @Override
             public void onClick(View v) {
                 //結果の画面へ
+                Switch reverse_disp = (Switch) findViewById(R.id.switch1);
+                if(reverse_disp.isChecked()){
+                    reverse_flag = true;
+                }
+                else{
+                    reverse_flag = false;
+                }
                 int checkedId = radiogroup.getCheckedRadioButtonId();
                 if (checkedId != -1) {
                     RadioButton radioButton = (RadioButton) findViewById(checkedId);

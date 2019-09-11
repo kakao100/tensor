@@ -1026,6 +1026,7 @@ drawable ka_skill_24
 drawable ka_skill_25
 drawable ka_skill_26
 drawable ka_skill_27
+drawable ka_skill_28
 drawable ka_skill_29
 drawable ka_skill_3
 drawable ka_skill_30
@@ -1064,6 +1065,11 @@ drawable ka_skill_6
 drawable ka_skill_60
 drawable ka_skill_61
 drawable ka_skill_62
+drawable ka_skill_63
+drawable ka_skill_64
+drawable ka_skill_65
+drawable ka_skill_66
+drawable ka_skill_67
 drawable ka_skill_68
 drawable ka_skill_69
 drawable ka_skill_7
@@ -1076,6 +1082,7 @@ drawable ka_skill_75
 drawable ka_skill_76
 drawable ka_skill_77
 drawable ka_skill_78
+drawable ka_skill_79
 drawable ka_skill_8
 drawable ka_skill_9
 drawable mob_icon1

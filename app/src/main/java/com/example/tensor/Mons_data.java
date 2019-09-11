@@ -52,7 +52,6 @@ public class Mons_data {
         //18~26 8,3,自分の攻撃力×10倍の火属性攻撃,1q単体ダメージq3q属性ダメージq,no,no,1,火の力,
         // 火属性の攻撃力が1.5倍。ドロップ操作時間を2秒延長。,1q属性倍率q1q攻撃倍率q1q操作時間延長q,0,1.5,0,0,noq,noq,
         String[] data = line.split(",");
-        String[] temp;
         if(!data[0].equals("no")) {
             id = Integer.parseInt(data[0]);
             name = data[1];
