@@ -306,9 +306,8 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         if(query.matches("^[\\u3040-\\u309F]+$")){
             int dis = 'あ'-'ア';
             StringBuilder revquery = new StringBuilder();
-            StringBuffer sb = new StringBuffer(query);
-            for (int i = 0; i < sb.length(); i++) {
-                char code = sb.charAt(i);
+            for (int i = 0; i < query.length(); i++) {
+                char code = query.charAt(i);
                 revquery.append((char)(code - dis));
                 }
             return revquery.toString();
@@ -316,9 +315,8 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         else if(query.matches("^[\\u30A0-\\u30FF]+$")){
             int dis = 'あ'-'ア';
             StringBuilder revquery = new StringBuilder();
-            StringBuffer sb = new StringBuffer(query);
-            for (int i = 0; i < sb.length(); i++) {
-                char code = sb.charAt(i);
+            for (int i = 0; i < query.length(); i++) {
+                char code = query.charAt(i);
                 revquery.append((char)(code + dis));
             }
             return revquery.toString();
