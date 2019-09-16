@@ -200,7 +200,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
             @Override
             public void onClick(View v) {
                 //結果の画面へ
-                Switch reverse_disp = (Switch) findViewById(R.id.switch1);
+                Switch reverse_disp = (Switch) findViewById(R.id.reverse_button);
                 if(reverse_disp.isChecked()){
                     reverse_flag = true;
                 }
@@ -280,8 +280,10 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     public boolean onQueryTextChange(String query) {
         if(!query.equals("")){
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
+            String revquery = revquery_method(query);
             for (Mons_data monster: selected_data) {
-                if ((monster.getname()!=null&&monster.getname().contains(query))||(monster.getskill_name()!=null&&monster.getskill_name().contains(query))) {
+                if ((monster.getname()!=null&&(monster.getname().contains(query)||monster.getname().contains(revquery))
+                        /*||(monster.getskill_name()!=null&&monster.getskill_name().contains(query))*/)){
                     filtered_mons_data.add(monster);
                 }
             }
@@ -299,6 +301,31 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
 
         return true;
     }
+
+    private String revquery_method(String query) {
+        if(query.matches("^[\\u3040-\\u309F]+$")){
+            int dis = 'あ'-'ア';
+            StringBuilder revquery = new StringBuilder();
+            StringBuffer sb = new StringBuffer(query);
+            for (int i = 0; i < sb.length(); i++) {
+                char code = sb.charAt(i);
+                revquery.append((char)(code - dis));
+                }
+            return revquery.toString();
+        }
+        else if(query.matches("^[\\u30A0-\\u30FF]+$")){
+            int dis = 'あ'-'ア';
+            StringBuilder revquery = new StringBuilder();
+            StringBuffer sb = new StringBuffer(query);
+            for (int i = 0; i < sb.length(); i++) {
+                char code = sb.charAt(i);
+                revquery.append((char)(code + dis));
+            }
+            return revquery.toString();
+        }
+        return query;
+    }
+
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             if(display_name==search||display_name==sort) {

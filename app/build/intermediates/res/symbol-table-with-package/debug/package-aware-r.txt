@@ -6771,6 +6771,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id rareView
+id reverse_button
 id right
 id right_icon
 id right_side
@@ -6825,7 +6826,6 @@ id statusView
 id stretch
 id submenuarrow
 id submit_area
-id switch1
 id switch2
 id tabMode
 id tag_transition_group

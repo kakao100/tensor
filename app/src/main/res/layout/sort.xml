@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/reverse_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:switchMinWidth="200dp"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
-        android:textSize="30sp" />
+        android:textOff="昇順(押すと変わるよ)"
+        android:textOn="降順(押すと変わるよ)"
+        android:textSize="50sp" />
 
     <RadioGroup
         android:id="@+id/sort_group"
@@ -70,8 +75,11 @@
         android:id="@+id/switch2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
-        android:textSize="30sp" />
+        android:textOff="超覚醒を含まない(押すと変わるよ)"
+        android:textOn="超覚醒を含む(押すと変わるよ)"
+        android:textSize="50sp" />
 
     <Button
         android:id="@+id/search_button"
