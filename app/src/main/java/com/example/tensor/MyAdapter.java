@@ -5664,6 +5664,7 @@ private Integer[] awaimage = {
         view = layoutInflater.inflate(R.layout.mons_list_items,viewGroup,false);
         Mons_data monster=mons_data_list.get(i);
 
+        //表示のすべて(長い)
         ImageView monster_icon = (ImageView)view.findViewById(R.id.monster_icon);
         monster_icon.setImageResource(image[monster.getid()]);
 
@@ -5711,6 +5712,7 @@ private Integer[] awaimage = {
             sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
             sawaView.addView(sawaImageView);
         }
+        //ここまで全部表示(長い)
         return view;
     }
 
