@@ -86,9 +86,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         // SearchViewに何も入力していない時のテキストを設定
         search_text.setQueryHint("モンスターが検索できるよ！！？！");
         //モンスター検索の文字列を保持する。
-        if(!search_text_checker.equals("")){
-            search_text.setQuery(search_text_checker,false);
-        }
+        search_text.setQuery(search_text_checker,false);
 
         //検索画面へ行くボタン
         Button search_button = findViewById(R.id.search_button);
@@ -209,8 +207,8 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     //文字検索の部分に何か打ち込まれたら呼ばれる。
     @Override
     public boolean onQueryTextChange(String query) {
+        search_text_checker = query;
         if(!query.equals("")){
-            search_text_checker = query;
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
             String revquery = revquery_method(query);
             for (Mons_data monster: selected_data) {

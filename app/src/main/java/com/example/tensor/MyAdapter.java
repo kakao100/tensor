@@ -5635,6 +5635,20 @@ private Integer[] awaimage = {
 
         };
 
+    public class ViewHolder {
+        ImageView monster_icon;
+        TextView name;
+        TextView status;
+        TextView status110;
+        TextView skill_tern;
+        TextView skill_name;
+        TextView skill_exp;
+        TextView rare;
+        TextView inheritance;
+        LinearLayout awa;
+        LinearLayout sawa;
+    }
+
 
     public MyAdapter(Context context){
         this.context=context;
@@ -5661,57 +5675,77 @@ private Integer[] awaimage = {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        view = layoutInflater.inflate(R.layout.mons_list_items,viewGroup,false);
-        Mons_data monster=mons_data_list.get(i);
+        ViewHolder holder;
+
+        if(view == null) {
+            view = layoutInflater.inflate(R.layout.mons_list_items, viewGroup, false);
+            holder = new ViewHolder();
+            holder.monster_icon = view.findViewById(R.id.monster_icon);
+            holder.name = view.findViewById(R.id.nameView);
+            holder.status = view.findViewById(R.id.statusView);
+            holder.status110 = view.findViewById(R.id.status110View);
+            holder.skill_tern = view.findViewById(R.id.ternView);
+            holder.skill_name = view.findViewById(R.id.skill_name);
+            holder.skill_exp = view.findViewById(R.id.skill_exp);
+            holder.rare = view.findViewById(R.id.rareView);
+            holder.inheritance = view.findViewById(R.id.inheritance);
+            holder.awa = view.findViewById(R.id.awaView);
+            holder.sawa = view.findViewById(R.id.sawaView);
+            view.setTag(holder);
+        }
+        else{
+            holder = (ViewHolder) view.getTag();
+        }
+        Mons_data monster = mons_data_list.get(i);
 
         //表示のすべて(長い)
-        ImageView monster_icon = (ImageView)view.findViewById(R.id.monster_icon);
-        monster_icon.setImageResource(image[monster.getid()]);
+            holder.monster_icon.setImageResource(image[monster.getid()]);
 
-        ((TextView)view.findViewById(R.id.nameView)).setText(monster.getname());
-        ((TextView)view.findViewById(R.id.statusView)).setText("HP "+String.valueOf(monster.gethp())+" 攻撃 "+String.valueOf(monster.getattack())+" 回復 "+String.valueOf(monster.getcure()));
-        if(monster.gethp_110()!=0) {
-            ((TextView)view.findViewById(R.id.status110View)).setText("(HP "+String.valueOf(monster.gethp_110())+" 攻撃 "+String.valueOf(monster.getattack_110())+" 回復 "+String.valueOf(monster.getcure_110())+")");
-        }
-        if(monster.getshortest_tern()!=0) {
-            ((TextView) view.findViewById(R.id.ternView)).setText("ST " + String.valueOf(monster.getshortest_tern())+"(" + String.valueOf(monster.getlongest_tern()) + ")");
-        }
-        if(monster.getinheritance()) {
-            ((TextView) view.findViewById(R.id.inheritance)).append("○");
-        }
-        else {
-            ((TextView) view.findViewById(R.id.inheritance)).append("-");
-        }
-        ((TextView) view.findViewById(R.id.skill_name)).setText(monster.getskill_name());
-        ((TextView) view.findViewById(R.id.skill_exp)).setText(monster.getskill_exp());
-        ((TextView)view.findViewById(R.id.rareView)).setText("☆ "+String.valueOf(monster.getrare()));
+            holder.name.setText(monster.getname());
+            holder.status.setText("HP " + monster.gethp() + " 攻撃 " + monster.getattack() + " 回復 " + monster.getcure());
+            if (monster.gethp_110() != 0) {
+                holder.status110.setText("(HP " + monster.gethp_110() + " 攻撃 " + monster.getattack_110() + " 回復 " + monster.getcure_110() + ")");
+            }
+            if (monster.getshortest_tern() != 0) {
+                holder.skill_tern.setText("ST " + monster.getshortest_tern() + "(" + monster.getlongest_tern() + ")");
+            }
+            if (monster.getinheritance()) {
+                holder.inheritance.setText("継承：○");
+            } else {
+                holder.inheritance.setText("継承：-");
+            }
+            holder.skill_name.setText(monster.getskill_name());
+            holder.skill_exp.setText(monster.getskill_exp());
+            holder.rare.setText("☆ " + monster.getrare());
 
-        LinearLayout awaView = view.findViewById(R.id.awaView);
-        for(String awa: monster.getawa()) {
-            if(awa==null){
-                break;
+            holder.awa.removeAllViews();
+            for (String awa : monster.getawa()) {
+                if (awa == null) {
+                    break;
+                }
+                ImageView awaImageView = new ImageView(context);
+                awaImageView.setImageResource(awaimage[Integer.parseInt(awa)]);
+                holder.awa.addView(awaImageView);
             }
-            ImageView awaImageView = new ImageView(context);
-            awaImageView.setImageResource(awaimage[Integer.parseInt(awa)]);
-            awaView.addView(awaImageView);
-        }
-        LinearLayout sawaView = view.findViewById(R.id.sawaView);
-        boolean flag=false;
-        for(String sawa: monster.getsawa()) {
-            if(sawa==null){
-                break;
-            }
-            if(!flag){
+
+            boolean flag = false;
+            holder.sawa.removeAllViews();
+            for (String sawa : monster.getsawa()) {
+                if (sawa == null) {
+                    break;
+                }
+                if (!flag) {
                     TextView text = new TextView(context);
                     text.setText("超覚醒：");
                     text.setTextColor(Color.BLACK);
-                    sawaView.addView(text);
-                    flag=true;
+                    holder.sawa.addView(text);
+                    flag = true;
+                }
+                ImageView sawaImageView = new ImageView(context);
+                sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
+                holder.sawa.addView(sawaImageView);
             }
-            ImageView sawaImageView = new ImageView(context);
-            sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
-            sawaView.addView(sawaImageView);
-        }
+
         //ここまで全部表示(長い)
         return view;
     }
