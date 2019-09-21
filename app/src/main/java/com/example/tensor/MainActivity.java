@@ -192,6 +192,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         for(Mons_data monster : mons_list){
             if(monster.getshortest_tern()>=mini_tern){
                 if(monster.getshortest_tern()<=max_tern) {
+                    if(monster.getrare()>4)
                     selected_data.add(monster);
                 }
             }
