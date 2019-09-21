@@ -4,6 +4,7 @@ import android.app.Activity;
 
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -210,10 +211,26 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         search_text_checker = query;
         if(!query.equals("")){
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
-            String revquery = revquery_method(query);
             for (Mons_data monster: selected_data) {
-                if ((monster.getname()!=null&&(monster.getname().contains(query)||monster.getname().contains(revquery))
-                        /*||(monster.getskill_name()!=null&&monster.getskill_name().contains(query))*/)){
+                String name = monster.getname();
+                int i = 0;
+                int index = 0;
+                while(i<query.length()) {
+                    String tmp = query.substring(i,i+1);
+                    String revtmp = revquery_method(tmp);
+                    if(!(name.substring(index).contains(tmp)||name.substring(index).contains(revtmp))){
+                        break;
+                    }
+                    if(name.contains(tmp)) {
+                        index = name.indexOf(tmp);
+                    }
+                    else{
+                        index = name.indexOf(revtmp);
+                    }
+                    name = name.replace(tmp,"");
+                    i++;
+                }
+                if(i==query.length()){
                     filtered_mons_data.add(monster);
                 }
             }

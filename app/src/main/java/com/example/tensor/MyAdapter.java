@@ -5697,54 +5697,53 @@ private Integer[] awaimage = {
             holder = (ViewHolder) view.getTag();
         }
         Mons_data monster = mons_data_list.get(i);
-
         //表示のすべて(長い)
-            holder.monster_icon.setImageResource(image[monster.getid()]);
+        holder.monster_icon.setImageResource(image[monster.getid()]);
 
-            holder.name.setText(monster.getname());
-            holder.status.setText("HP " + monster.gethp() + " 攻撃 " + monster.getattack() + " 回復 " + monster.getcure());
-            if (monster.gethp_110() != 0) {
-                holder.status110.setText("(HP " + monster.gethp_110() + " 攻撃 " + monster.getattack_110() + " 回復 " + monster.getcure_110() + ")");
-            }
-            if (monster.getshortest_tern() != 0) {
-                holder.skill_tern.setText("ST " + monster.getshortest_tern() + "(" + monster.getlongest_tern() + ")");
-            }
-            if (monster.getinheritance()) {
-                holder.inheritance.setText("継承：○");
-            } else {
-                holder.inheritance.setText("継承：-");
-            }
-            holder.skill_name.setText(monster.getskill_name());
-            holder.skill_exp.setText(monster.getskill_exp());
-            holder.rare.setText("☆ " + monster.getrare());
+        holder.name.setText(monster.getname());
+        holder.status.setText("HP " + monster.gethp() + " 攻撃 " + monster.getattack() + " 回復 " + monster.getcure());
+        if (monster.gethp_110() != 0) {
+            holder.status110.setText("(HP " + monster.gethp_110() + " 攻撃 " + monster.getattack_110() + " 回復 " + monster.getcure_110() + ")");
+        }
+        if (monster.getshortest_tern() != 0) {
+            holder.skill_tern.setText("ST " + monster.getshortest_tern() + "(" + monster.getlongest_tern() + ")");
+        }
+        if (monster.getinheritance()) {
+            holder.inheritance.setText("継承：○");
+        } else {
+            holder.inheritance.setText("継承：-");
+        }
+        holder.skill_name.setText(monster.getskill_name());
+        holder.skill_exp.setText(monster.getskill_exp());
+        holder.rare.setText("☆ " + monster.getrare());
 
-            holder.awa.removeAllViews();
-            for (String awa : monster.getawa()) {
-                if (awa == null) {
-                    break;
-                }
-                ImageView awaImageView = new ImageView(context);
-                awaImageView.setImageResource(awaimage[Integer.parseInt(awa)]);
-                holder.awa.addView(awaImageView);
+        holder.awa.removeAllViews();
+        for (String awa : monster.getawa()) {
+            if (awa == null) {
+                break;
             }
+            ImageView awaImageView = new ImageView(context);
+            awaImageView.setImageResource(awaimage[Integer.parseInt(awa)]);
+            holder.awa.addView(awaImageView);
+        }
 
-            boolean flag = false;
-            holder.sawa.removeAllViews();
-            for (String sawa : monster.getsawa()) {
-                if (sawa == null) {
-                    break;
-                }
-                if (!flag) {
-                    TextView text = new TextView(context);
-                    text.setText("超覚醒：");
-                    text.setTextColor(Color.BLACK);
-                    holder.sawa.addView(text);
-                    flag = true;
-                }
-                ImageView sawaImageView = new ImageView(context);
-                sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
-                holder.sawa.addView(sawaImageView);
+        boolean flag = false;
+        holder.sawa.removeAllViews();
+        for (String sawa : monster.getsawa()) {
+            if (sawa == null) {
+                break;
             }
+            if (!flag) {
+                TextView text = new TextView(context);
+                text.setText("超覚醒：");
+                text.setTextColor(Color.BLACK);
+                holder.sawa.addView(text);
+                flag = true;
+            }
+            ImageView sawaImageView = new ImageView(context);
+            sawaImageView.setImageResource(awaimage[Integer.parseInt(sawa)]);
+            holder.sawa.addView(sawaImageView);
+        }
 
         //ここまで全部表示(長い)
         return view;
