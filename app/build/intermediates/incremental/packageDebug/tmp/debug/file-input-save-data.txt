@@ -1,19 +1,23 @@
 #Internal package file, do not edit.
-#Mon Sep 16 15:40:04 JST 2019
-1.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
-2.path=data_mons_test.csv
-0.baseType=DIRECTORY
-3.baseType=DIRECTORY
+#Fri Sep 20 23:07:58 JST 2019
 2.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/debug/out
-3.set=DEX
-2.set=ASSET
-1.baseType=DIRECTORY
-3.path=classes.dex
-count=4
-1.set=DEX
 0.path=data_mons.csv
-3.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/dex/debug/mergeExtDexDebug/out
-0.set=ASSET
-0.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/debug/out
 2.baseType=DIRECTORY
+3.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/debug/out
+2.set=ASSET
 1.path=classes.dex
+4.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+count=5
+2.path=mons_data.csv
+4.set=DEX
+3.path=data_mons_test.csv
+3.baseType=DIRECTORY
+1.set=DEX
+4.path=classes.dex
+1.baseType=DIRECTORY
+0.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/debug/out
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+4.baseType=DIRECTORY
+0.set=ASSET
