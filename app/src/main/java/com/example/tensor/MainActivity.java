@@ -211,27 +211,23 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     public boolean onQueryTextChange(String query) {
         search_text_checker = query;
         if(!query.equals("")){
+            String revquery = revquery_method(query);
+            String[] name_split = query.split("");
+            String[] rev_name_split = revquery.split("");
+            String name_matcher = "";
+            String rev_name_matcher = "";
+            for(String tmp: name_split){
+                name_matcher += ".*"+tmp;
+            }
+            name_matcher += ".*";
+            for(String tmp: rev_name_split){
+                rev_name_matcher += ".*"+tmp;
+            }
+            rev_name_matcher += ".*";
             final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
             for (Mons_data monster: selected_data) {
                 String name = monster.getname();
-                int i = 0;
-                int index = 0;
-                while(i<query.length()) {
-                    String tmp = query.substring(i,i+1);
-                    String revtmp = revquery_method(tmp);
-                    if(!(name.substring(index).contains(tmp)||name.substring(index).contains(revtmp))){
-                        break;
-                    }
-                    if(name.contains(tmp)) {
-                        index = name.indexOf(tmp);
-                    }
-                    else{
-                        index = name.indexOf(revtmp);
-                    }
-                    name = name.replace(tmp,"");
-                    i++;
-                }
-                if(i==query.length()){
+                if(name.matches(name_matcher)||name.matches(rev_name_matcher)) {
                     filtered_mons_data.add(monster);
                 }
             }
@@ -246,7 +242,6 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
             //反映
             adapter.notifyDataSetChanged();
         }
-
         return true;
     }
 
