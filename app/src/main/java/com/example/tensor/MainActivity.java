@@ -212,6 +212,13 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         search_text_checker = query;
         if(!query.equals("")){
             String revquery = revquery_method(query);
+            final ArrayList<Mons_data> filtered_mons_data = new ArrayList<>();
+            for (Mons_data monster: selected_data) {
+            if (monster.getname().contains(query)||monster.getname().contains(revquery)) {
+                    filtered_mons_data.add(monster);
+                }
+            }
+            /*String revquery = revquery_method(query);
             String[] name_split = query.split("");
             String[] rev_name_split = revquery.split("");
             String name_matcher = "";
@@ -230,7 +237,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
                 if(name.matches(name_matcher)||name.matches(rev_name_matcher)) {
                     filtered_mons_data.add(monster);
                 }
-            }
+            }*/
             //データをセット
             adapter.setList(filtered_mons_data);
             //反映
