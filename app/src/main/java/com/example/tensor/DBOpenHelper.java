@@ -26,53 +26,29 @@ public class DBOpenHelper extends SQLiteOpenHelper {
         ContentValues value = new ContentValues();
         db.beginTransaction();
         try {
-            db.execSQL("create table MonsterDB (_id integer primary key, name text, skilltern integer);");
+            db.execSQL("create table MonsterDB (_id integer primary key, data text);");
             URL url = new URL("https://www.");
-            HashMap<Integer,Mons_data> mons_data_map = http_data_reader(url);
-            for(Mons_data monster:mons_data_map) {
-                value.put("_id",monster.getid());
-                value.put("name",monster.getname());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-                value.put("_id",monster.getid());
-
+            try {
+                String line;
+                int i = 0;
+                BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+                // Get通信してStringに変換
+                while ((line = br.readLine())!=null){
+                    value.put("_id",i++);
+                    value.put("data",line);
+                }
             }
-                db.insert("MonsterDB", null, value);
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+            db.insert("MonsterDB", null, value);
             db.setTransactionSuccessful();
         } catch (MalformedURLException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
+        }  finally {
             db.endTransaction();
         }
     }
-
-    private HashMap<Integer,Mons_data> http_data_reader(URL url) throws IOException {
-        HashMap<Integer,Mons_data> mons_data_list = new HashMap<Integer, Mons_data>();
-        try {
-            String line;
-            int i = 0;
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-            // Get通信してStringに変換
-            while ((line = br.readLine())!=null){
-                Mons_data tmp = new Mons_data(line);
-                mons_data_list.put(i++, tmp);
-            }
-        }
-        catch (Exception e) {
-                e.printStackTrace();
-        }
-        return mons_data_list;
-    }
-
 
     @Override
     public void onUpgrade(SQLiteDatabase db,
