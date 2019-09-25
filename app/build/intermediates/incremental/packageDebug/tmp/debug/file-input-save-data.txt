@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Sep 23 23:41:27 JST 2019
+#Wed Sep 25 11:29:17 JST 2019
 2.base=/Users/kou/AndroidStudioProjects/tensor/app/build/intermediates/merged_assets/debug/out
 0.path=data_mons.csv
 2.baseType=DIRECTORY
