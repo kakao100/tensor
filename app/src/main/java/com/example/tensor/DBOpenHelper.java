@@ -9,10 +9,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.stream.Collectors;
 
 public class DBOpenHelper extends SQLiteOpenHelper {
     // データーベースのバージョン
@@ -27,9 +27,23 @@ public class DBOpenHelper extends SQLiteOpenHelper {
         db.beginTransaction();
         try {
             db.execSQL("create table MonsterDB (_id integer primary key, name text, skilltern integer);");
-            URL url = new URL("https://www.petitmonte.com/java/java_url.html");
-            ArrayList<Mons_data> mons_data_list = http_data_reader(url);
-                //value.put("monsterlist", mons_data_list);
+            URL url = new URL("https://www.");
+            HashMap<Integer,Mons_data> mons_data_map = http_data_reader(url);
+            for(Mons_data monster:mons_data_map) {
+                value.put("_id",monster.getid());
+                value.put("name",monster.getname());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+                value.put("_id",monster.getid());
+
+            }
                 db.insert("MonsterDB", null, value);
             db.setTransactionSuccessful();
         } catch (MalformedURLException e) {
@@ -41,20 +55,21 @@ public class DBOpenHelper extends SQLiteOpenHelper {
         }
     }
 
-    private ArrayList<Mons_data> http_data_reader(URL url) throws IOException {
-        ArrayList<Mons_data> mons_data_list = new ArrayList<>();
-        // InputStream(バイトストリーム)のままでもHTMLは取得できるが文字化けする
-        InputStream is = url.openStream();
-        // InputStreamをUTF8のInputStreamReader(文字ストリーム)に変換する
-        InputStreamReader isr = new InputStreamReader(is,"UTF-8");
-        BufferedReader br = new BufferedReader(isr);
-        String inputLine;
-        // 一行毎に読み込む
-        while ((inputLine = br.readLine()) != null) {
-            Mons_data tmp = new Mons_data(inputLine);
-            mons_data_list.add(tmp);
+    private HashMap<Integer,Mons_data> http_data_reader(URL url) throws IOException {
+        HashMap<Integer,Mons_data> mons_data_list = new HashMap<Integer, Mons_data>();
+        try {
+            String line;
+            int i = 0;
+            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+            // Get通信してStringに変換
+            while ((line = br.readLine())!=null){
+                Mons_data tmp = new Mons_data(line);
+                mons_data_list.put(i++, tmp);
+            }
         }
-        br.close();
+        catch (Exception e) {
+                e.printStackTrace();
+        }
         return mons_data_list;
     }
 
