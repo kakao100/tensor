@@ -67,8 +67,6 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         data_selector(mini_tern,max_tern);
         //selected_dataの中身をラジオボタンに合わせてソートする。
         selected_data = mons_data_sorter(sort_type,selected_data);
-
-
         // ListViewにArrayAdapterを設定する
         ListView listView = (ListView)findViewById(R.id.listView);
         adapter = new MyAdapter(MainActivity.this);
@@ -192,8 +190,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         for(Mons_data monster : mons_list){
             if(monster.getshortest_tern()>=mini_tern){
                 if(monster.getshortest_tern()<=max_tern) {
-                    if(monster.getrare()>4)
-                    selected_data.add(monster);
+                    if(monster.getawa()[0]!=null&&monster.getrare()>=4) {
+                        selected_data.add(monster);
+                    }
                 }
             }
         }
@@ -255,25 +254,22 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     //ひらがなはカタカナに
     //カタカナはひらがなに
     private String revquery_method(String query) {
+        if(!(query.matches("^[\\u3040-\\u309F]+$")||query.matches("^[\\u30A0-\\u30FF]+$"))){
+            return query;
+        }
+        int dis=0;
+        StringBuilder revquery = new StringBuilder();
         if(query.matches("^[\\u3040-\\u309F]+$")){
-            int dis = 'あ'-'ア';
-            StringBuilder revquery = new StringBuilder();
-            for (int i = 0; i < query.length(); i++) {
-                char code = query.charAt(i);
-                revquery.append((char)(code - dis));
-                }
-            return revquery.toString();
+            dis = 'あ'-'ア';
         }
-        else if(query.matches("^[\\u30A0-\\u30FF]+$")){
-            int dis = 'あ'-'ア';
-            StringBuilder revquery = new StringBuilder();
-            for (int i = 0; i < query.length(); i++) {
-                char code = query.charAt(i);
-                revquery.append((char)(code + dis));
-            }
-            return revquery.toString();
+        else if(query.matches("^[\\u30A0-\\u30FF]+$")) {
+            dis = 'ア' - 'あ';
         }
-        return query;
+        for (int i = 0; i < query.length(); i++) {
+            char code = query.charAt(i);
+            revquery.append((char)(code - dis));
+        }
+        return revquery.toString();
     }
 
     //戻るボタンの処理
