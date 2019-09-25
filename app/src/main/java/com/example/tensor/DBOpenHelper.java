@@ -16,9 +16,9 @@ import java.util.stream.Collectors;
 
 public class DBOpenHelper extends SQLiteOpenHelper {
     // データーベースのバージョン
-    private final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 1;
     DBOpenHelper(Context context) {
-        super(context, null, null,1/*DATABASE_VERSION*/);
+        super(context, null, null,DATABASE_VERSION);
     }
     @Override
     public void onCreate(SQLiteDatabase db) {

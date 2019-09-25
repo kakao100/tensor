@@ -3,6 +3,9 @@ package com.example.tensor;
 import android.app.Activity;
 
 
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -159,7 +162,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
 
     //起動時にデータの読み込み(毎回するのは重すぎて本番だとやってられないかも)
     public void data_reader() {
-        InputStream is = null;
+        /*InputStream is = null;
         BufferedReader br = null;
         try {
             try {
@@ -181,7 +184,19 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         } catch (Exception e){
             // エラー発生時の処理
             e.printStackTrace();
+        }*/
+        DBOpenHelper helper;
+        helper = new DBOpenHelper(this);
+        final SQLiteDatabase db = helper.getReadableDatabase();
+        final String[] columns=new String[]{"_id","data"};
+        Cursor c = db.query("MonsterDB",columns, null, null, null, null, null);
+        c.moveToFirst();
+        while (c.getString(1)!=null) {
+            Mons_data tmp = new Mons_data(c.getString(1));
+            mons_list.add(tmp);
+            c.moveToNext();
         }
+        c.close();
     }
     //最小ターン最大ターンのみでフィルタをかける。
     //これはこれから追加する
