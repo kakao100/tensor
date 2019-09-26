@@ -4,11 +4,13 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
@@ -25,27 +27,34 @@ public class DBOpenHelper extends SQLiteOpenHelper {
         // テーブル作成
         ContentValues value = new ContentValues();
         db.beginTransaction();
-        try {
+        try{
             db.execSQL("create table MonsterDB (_id integer primary key, data text);");
-            URL url = new URL("https://www.");
-            try {
-                String line;
-                int i = 0;
-                BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-                // Get通信してStringに変換
-                while ((line = br.readLine())!=null){
-                    value.put("_id",i++);
-                    value.put("data",line);
-                }
+            URL url = new URL("https://kou0.github.io/");
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            int responseCode = connection.getResponseCode();
+            InputStream inputStream;
+            if (200 <= responseCode && responseCode <= 299) {
+                inputStream = connection.getInputStream();
+            } else {
+                inputStream = connection.getErrorStream();
             }
-            catch (Exception e) {
-                e.printStackTrace();
+            String line;
+            BufferedReader in = new BufferedReader(
+                    new InputStreamReader(
+                            inputStream));
+            // Get通信してStringに変換
+            int i=0;
+            while ((line = in.readLine())!=null){
+                //value.put("_id",i++);
+                //value.put("data",line);
+                Log.d("", "onCreate: "+line);
             }
+            in.close();
             db.insert("MonsterDB", null, value);
             db.setTransactionSuccessful();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }  finally {
+        }catch(IOException e) {
+        System.err.println(e.getMessage());
+        } finally {
             db.endTransaction();
         }
     }

@@ -189,10 +189,11 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         helper = new DBOpenHelper(this);
         final SQLiteDatabase db = helper.getReadableDatabase();
         final String[] columns=new String[]{"_id","data"};
+        String line;
         Cursor c = db.query("MonsterDB",columns, null, null, null, null, null);
         c.moveToFirst();
-        while (c.getString(1)!=null) {
-            Mons_data tmp = new Mons_data(c.getString(1));
+        while ((line=c.getString(1))!=null) {
+            Mons_data tmp = new Mons_data(line);
             mons_list.add(tmp);
             c.moveToNext();
         }
