@@ -25,7 +25,6 @@ public class DBOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // テーブル作成
-        ContentValues value = new ContentValues();
         db.beginTransaction();
         try{
             db.execSQL("create table MonsterDB (_id integer primary key, data text);");
@@ -45,12 +44,12 @@ public class DBOpenHelper extends SQLiteOpenHelper {
             // Get通信してStringに変換
             int i=0;
             while ((line = in.readLine())!=null){
-                //value.put("_id",i++);
-                //value.put("data",line);
-                Log.d("", "onCreate: "+line);
+                ContentValues value = new ContentValues();
+                value.put("_id",i++);
+                value.put("data",line);
+                db.insert("MonsterDB", null, value);
             }
             in.close();
-            db.insert("MonsterDB", null, value);
             db.setTransactionSuccessful();
         }catch(IOException e) {
         System.err.println(e.getMessage());

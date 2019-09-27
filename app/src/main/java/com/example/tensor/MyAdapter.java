@@ -5748,6 +5748,4 @@ private Integer[] awaimage = {
         //ここまで全部表示(長い)
         return view;
     }
-
-
 }

@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -50,7 +51,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //全データをmons_listという変数に代入する。
-        data_reader();
+        AsyncHttpRequest AHttp = new AsyncHttpRequest(this);
+        AHttp.execute();
+        mons_list = AHttp.get_Mons_data();
         //最初の画面を表示するメソッド呼び出し。
         SetResultScreen();
     }
@@ -160,45 +163,7 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
         });
     }
 
-    //起動時にデータの読み込み(毎回するのは重すぎて本番だとやってられないかも)
-    public void data_reader() {
-        /*InputStream is = null;
-        BufferedReader br = null;
-        try {
-            try {
-                // assetsフォルダ内の data_mons.csv をオープンする
-                is = this.getAssets().open("data_mons_test.csv");
-                br = new BufferedReader(new InputStreamReader(is));
 
-                // １行ずつ読み込み
-                String line;
-
-                while ((line = br.readLine()) != null) {
-                    Mons_data tem=new Mons_data(line);
-                    mons_list.add(tem);
-                }
-            } finally {
-                if (is != null) is.close();
-                if (br != null) br.close();
-            }
-        } catch (Exception e){
-            // エラー発生時の処理
-            e.printStackTrace();
-        }*/
-        DBOpenHelper helper;
-        helper = new DBOpenHelper(this);
-        final SQLiteDatabase db = helper.getReadableDatabase();
-        final String[] columns=new String[]{"_id","data"};
-        String line;
-        Cursor c = db.query("MonsterDB",columns, null, null, null, null, null);
-        c.moveToFirst();
-        while ((line=c.getString(1))!=null) {
-            Mons_data tmp = new Mons_data(line);
-            mons_list.add(tmp);
-            c.moveToNext();
-        }
-        c.close();
-    }
     //最小ターン最大ターンのみでフィルタをかける。
     //これはこれから追加する
     public void data_selector(int mini_tern, int max_tern){
