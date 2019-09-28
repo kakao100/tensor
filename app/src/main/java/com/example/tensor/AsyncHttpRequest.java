@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -42,7 +43,6 @@ public class AsyncHttpRequest extends AsyncTask<Uri.Builder, Void, String> {
     // このメソッドは非同期処理の終わった後に呼び出されます
     @Override
     protected void onPostExecute(String result) {
-
     }
     public ArrayList<Mons_data> get_Mons_data(){
         return mons_list;

@@ -45,13 +45,15 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
     int checkedId = -1;
     String search_text_checker ="";
     String sort_type="";
+    boolean data_in_flag=false;
     boolean reverse_flag = false;
+    AsyncHttpRequest AHttp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //全データをmons_listという変数に代入する。
-        AsyncHttpRequest AHttp = new AsyncHttpRequest(this);
+        AHttp = new AsyncHttpRequest(this);
         AHttp.execute();
         mons_list = AHttp.get_Mons_data();
         //最初の画面を表示するメソッド呼び出し。
@@ -60,6 +62,9 @@ public class MainActivity extends Activity implements SearchView.OnQueryTextList
 
     private void SetResultScreen() {
         setContentView(R.layout.results);
+        /*while(!AHttp.doInBackground().equals("")){
+            Log.d("", "SetResultScreen: "+i);
+        }*/
         display_name = result;
         //入力データを受け取る。
         int mini_tern=1,max_tern=100;
